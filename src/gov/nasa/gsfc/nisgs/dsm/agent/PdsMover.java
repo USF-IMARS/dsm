@@ -32,7 +32,7 @@ public class PdsMover
 	{
 		int n = Integer.getInteger("sleepSeconds",30).intValue();
 		if (n < 1) n = 1;
-		long sleepyTime = (long)n * ONE_SECOND;
+		long sleepyTime = ONE_SECOND;//(long)n * ONE_SECOND;
 		errorLimit = Integer.getInteger("errorLimit",2).intValue();
 
 		//My key for new PDS products is the existence of construction record files.
@@ -182,87 +182,85 @@ public class PdsMover
 		//Any DSM setup exceptions are fatal and rethrown. Exceptions in the try/catch
 		//block will just abort the current session, and we will try again in the next
 		//cycle.
-		DSMAdministrator dsm = new DSMAdministrator(MYNAME,MYNAME);
+		try(DSMAdministrator dsm = new DSMAdministrator(MYNAME,MYNAME)){
 
-		//I get all level 0 products that I put into the dsm. I do this so I can
-		//skip PDS files that I have already processed.
-		java.util.List<Product> dsmProducts = null;
-		try
-		{
-			dsmProducts = dsm.getProductsByAgent(MYNAME);
-		}
-		catch (Exception dsmpe)
-		{
-			logger.report("PdsMover processing aborted...");
-			dsm.dispose();
-			throw dsmpe;
-		}
-
-		boolean failed = false;
-
-		//I process each PDS in my list of files.
-		for (int n = 0; n < pdsFiles.length; n++)
-		{
-			PDS pds = new PDS(MYNAME,pdsFiles[n],dsm);
+			//I get all level 0 products that I put into the dsm. I do this so I can
+			//skip PDS files that I have already processed.
+			java.util.List<Product> dsmProducts = null;
 			try
 			{
-				if (pds.getFault() != null)
+				dsmProducts = dsm.getProductsByAgent(MYNAME);
+			}
+			catch (Exception dsmpe)
+			{
+				logger.report("PdsMover processing aborted...");
+				throw dsmpe;
+			}
+
+			boolean failed = false;
+
+			//I process each PDS in my list of files.
+			for (int n = 0; n < pdsFiles.length; n++)
+			{
+				PDS pds = new PDS(MYNAME,pdsFiles[n],dsm);
+				try
 				{
-					throw new Exception(pds.getFault());
-				}
-				if (dsmProducts.contains(pds))
-				{
-					throw new Exception("DSM already contains " + pds);
-				}
-				else
-				{
-					//From the product type, I get the IS directory from the dsm
-					//to where I will put the pds. If the dsm does not have a directory,
-					//I put the pds in the IS "dropbox."
-					File remoteDirectory = is_dropbox;
-					ProductType productType = pds.getProductType();
-					if (productType != null && productType.getISdirectory() != null)
+					if (pds.getFault() != null)
 					{
-						remoteDirectory = productType.getISdirectory();
+						throw new Exception(pds.getFault());
 					}
+					if (dsmProducts.contains(pds))
+					{
+						throw new Exception("DSM already contains " + pds);
+					}
+					else
+					{
+						//From the product type, I get the IS directory from the dsm
+						//to where I will put the pds. If the dsm does not have a directory,
+						//I put the pds in the IS "dropbox."
+						File remoteDirectory = is_dropbox;
+						ProductType productType = pds.getProductType();
+						if (productType != null && productType.getISdirectory() != null)
+						{
+							remoteDirectory = productType.getISdirectory();
+						}
 
-					Product product = pds.createProduct(remoteDirectory);
-					logger.report("Send to IS "+product);
-					// ftp.sendPDS(pds,remoteDirectory);
-					fm.moveFile(pds.getDataFile(),
-							new File(remoteDirectory, pds.getDataFile().getName()));
-					fm.moveFile(pds.getRecordFile(), 
-							new File(remoteDirectory, pds.getRecordFile().getName()));
+						Product product = pds.createProduct(remoteDirectory);
+						logger.report("Send to IS "+product);
+						// ftp.sendPDS(pds,remoteDirectory);
+						fm.moveFile(pds.getDataFile(),
+								new File(remoteDirectory, pds.getDataFile().getName()));
+						fm.moveFile(pds.getRecordFile(),
+								new File(remoteDirectory, pds.getRecordFile().getName()));
 
-					dsm.storeProduct(toSite, product);
+						dsm.storeProduct(toSite, product);
+					}
 				}
-			}
-			catch (Exception pe)
-			{
-				failed = true;
-				logger.report("PdsMover Error", pe);
-
-				if (consecutiveFailures > errorLimit && pds != null)
+				catch (Exception pe)
 				{
-					logger.report("PdsMover moving files to FAILED");
-					pds.move(problemFilesDirectory);
+					failed = true;
+					logger.report("PdsMover Error", pe);
+
+					if (consecutiveFailures > errorLimit && pds != null)
+					{
+						logger.report("PdsMover moving files to FAILED");
+						pds.move(problemFilesDirectory);
+					}
+				}
+				finally
+				{
+					pds.delete();
 				}
 			}
-			finally
+
+			if (failed)
 			{
-				pds.delete();
+				++consecutiveFailures;
+			}
+			else
+			{
+				consecutiveFailures = 0;
 			}
 		}
-
-		if (failed)
-		{
-			++consecutiveFailures;
-		}
-		else
-		{
-			consecutiveFailures = 0;
-		}
-
-		try { dsm.dispose(); } catch (Exception edispose) {};
 	}
 }

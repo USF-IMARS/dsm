@@ -24,7 +24,7 @@ import gov.nasa.gsfc.nisgs.properties.Utility;
  * @version 3.0 Added support for transfer commands
  * @version 3.22 Fixed an infinite blocking problem in all fetchProduct methods.
  */
-public class DSM
+public class DSM implements AutoCloseable
 {
     private static final int ONE_SECOND = 1000;
     private int timeQuota = 300 * ONE_SECOND;
@@ -160,6 +160,11 @@ public class DSM
     {
 	dsmProperties.dispose();
     }
+
+    /**
+     * close=dispose; added for AutoCloseable
+     */
+    public void close() throws Exception {dispose();}
 
     /**
      * This method will close the connection as part of cleanup.

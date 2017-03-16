@@ -4,9 +4,7 @@ the Administrator for The National Aeronautics and Space Administration.
 All rights reserved.
 */
 package gov.nasa.gsfc.nisgs.dsm;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.*;
 import java.nio.channels.FileChannel;
 
 
@@ -61,26 +59,27 @@ public class CopyMover extends FileMover
 	    }
 	}
 	else {
-	    // Copying code found on-line
-	    FileChannel sourceChannel = new FileInputStream(from).getChannel();
-	    FileChannel destinationChannel = new FileOutputStream(to).getChannel();
+		try (
+				FileInputStream fromStream = new FileInputStream(from);
+				FileOutputStream toStream = new FileOutputStream(to);
+				FileChannel sourceChannel = fromStream.getChannel();
+				FileChannel destinationChannel = toStream.getChannel();
+			){
 
-	    // It would be really cool if the line below worked reliably:
-	    // sourceChannel.transferTo(0, sourceChannel.size(), destinationChannel);
-	    // However, it's known to fail for files 2GB or greater,
-	    // on all major JVMs, requiring the following silly workaround
-	    // (taken from
-	    // http://forum.java.sun.com/thread.jspa?threadID=439695&messageID=2917510):
+			// It would be really cool if the line below worked reliably:
+			// sourceChannel.transferTo(0, sourceChannel.size(), destinationChannel);
+			// However, it's known to fail for files 2GB or greater,
+			// on all major JVMs, requiring the following silly workaround
+			// (taken from
+			// http://forum.java.sun.com/thread.jspa?threadID=439695&messageID=2917510):
 
-	    int maxCount = (64 * 1024 * 1024) - (32 * 1024);
-	    long size = sourceChannel.size();
-	    long position = 0;
-	    while (position < size) {
-		position += sourceChannel.transferTo(position, maxCount, destinationChannel);
-	    }
-
-	    sourceChannel.close();
-	    destinationChannel.close();
+			int maxCount = (64 * 1024 * 1024) - (32 * 1024);
+			long size = sourceChannel.size();
+			long position = 0;
+			while (position < size) {
+				position += sourceChannel.transferTo(position, maxCount, destinationChannel);
+			}
+		}
 	}
     }
 

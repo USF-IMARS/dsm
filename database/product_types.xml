@@ -1,0 +1,625 @@
+<!-- This file is a mechanical transformation of the type info in
+     make_dsm_modis_product_types.sql.  All of its information has
+     been moved into SPA NISGSinstall.xml files, or the MODIS
+     PdsMover types file.
+-->
+<NISGS-SPA-INSTALL>
+<OutputTypes>
+<OutputType
+	name="aqua.0141.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 141 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="aqua.0142.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 142 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="aqua.0157.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 157 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="aqua.0158.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 158 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="aqua.0259.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 259 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0260.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 260 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0261.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 261 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0262.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 262 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0289.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 289 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0290.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 290 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="aqua.0342.pds"
+	spacecraft="AQUA"
+	sensor="hsb"
+	description="hsb 342 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/hsb/" />
+<OutputType
+	name="aqua.0402.pds"
+	spacecraft="AQUA"
+	sensor="amsr"
+	description="amsr 402 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsr/" />
+<OutputType
+	name="aqua.0404.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 404 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0405.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 405 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0406.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 406 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0407.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 407 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0414.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 414 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0415.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 415 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0416.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 416 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.0417.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 417 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="aqua.gbad.att"
+	spacecraft="AQUA"
+	sensor="gbad"
+	description="GBAD Attitude"
+	level="1"
+	is-directory="gsfcdata/aqua/gbad/" />
+<OutputType
+	name="aqua.gbad.eph"
+	spacecraft="AQUA"
+	sensor="gbad"
+	description="GBAD Ephemeris"
+	level="1"
+	is-directory="gsfcdata/aqua/gbad/" />
+<OutputType
+	name="aqua.gbad.pds"
+	spacecraft="AQUA"
+	sensor="gbad"
+	description="gbad pds"
+	level="0"
+	is-directory="gsfcdata/aqua/gbad/" />
+<OutputType
+	name="aqua.modis.crefl"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="crefl"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.firedetection"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD014 Fire Detection"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.mxd01"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD01 Granule"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd021km"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02 1 km Granule"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd02hkm"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02 1/2 km Granule"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd02obc"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02 OBC"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd02qkm"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02 1/4 km Granule"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd03"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="Geolocated Granule"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.ndvi"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD013 Normalized Vegetation Index"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.pds"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="modis pds"
+	level="0"
+	is-directory="gsfcdata/aqua/modis/level0/" />
+<OutputType
+	name="aqua.modis.sst"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="Sea Surface Temperature"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="terra.modis.aerosols"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP optical depth, coarse/fine"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.atmprofile"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP atmospheric profile"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.chlor_a"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="chlorophyll_a"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.cloudmask"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP 48-bit cloud mask"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.cloudtop"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP Cloudtop properties"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.crefl"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="crefl"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.firedetection"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD014 Fire Detection"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.firedetection.geotif"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD014 Fire Detection"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.mxd01"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD01 Granule"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd021km"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02 1 km Granule"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd02hkm"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02 1/2 km Granule"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd02obc"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02 OBC"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd02qkm"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02 1/4 km Granule"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd03"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="Geolocated Granule"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.ndvi"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD013 Normalized Vegetation Index"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.pds"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="modis pds"
+	level="0"
+	is-directory="gsfcdata/terra/modis/level0/" />
+<OutputType
+	name="terra.modis.sst"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="Sea Surface Temperature"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="aqua.modis.aerosols"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP optical depth, coarse/fine"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.atmprofile"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP atmospheric profile"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.chlor_a"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="chlorophyll_a"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.cloudmask"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP 48-bit cloud mask"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.cloudtop"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP Cloudtop properties"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="aqua.modis.fire.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD014 Fire Detection"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.mxd021km.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD021KM Infrared GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1" />
+<OutputType
+	name="aqua.modis.mxd02hkm.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02HKM True Color GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1/" />
+<OutputType
+	name="aqua.modis.mxd02qkm.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD02QKM Gray Scale GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/aqua/modis/level1" />
+<OutputType
+	name="aqua.modis.ndvi.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="MYD013 NDVI GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.sst.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="Sea Surface Temperature GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="terra.modis.aerosols.aod.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP Aerosol Optical Depth GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2" />
+<OutputType
+	name="terra.modis.atmprofile.tpw.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP Total Precipitable Water GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2" />
+<OutputType
+	name="terra.modis.chlor_a.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="Chlorophyll_A GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.cloudmask.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP 48-bit Cloudmask GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2" />
+<OutputType
+	name="terra.modis.cloudtop.ctp.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP Cloudtop Pressure GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2" />
+<OutputType
+	name="terra.modis.cloudtop.irphase.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="IMAPP Cloudtop Infrared Phase GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2" />
+<OutputType
+	name="terra.modis.fire.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD014 Fire Detection"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.mxd021km.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD021KM Infrared GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd02hkm.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02HKM True Color GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.mxd02qkm.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD02QKM Gray Scale GEOTIFF"
+	level="1"
+	is-directory="gsfcdata/terra/modis/level1/" />
+<OutputType
+	name="terra.modis.ndvi.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="MOD013 NDVI GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="terra.modis.sst.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="Sea Surface Temperature GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="aqua.modis.aerosols.aod.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP Aerosol Optical Depth GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.atmprofile.tpw.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP Total Precipitable Water GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.chlor_a.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="Chlorophyll_A GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.cloudmask.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP 48-bit Cloudmask GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.cloudtop.ctp.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP Cloudtop Pressure GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.cloudtop.irphase.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="IMAPP Cloudtop Infrared Phase GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2" />
+<OutputType
+	name="aqua.modis.crefl.rgb.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="corrected reflectance (CREFL) RGB"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="terra.modis.crefl.rgb.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="corrected reflectance (CREFL) RGB"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="aqua.modis.landst.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="land surface temperature GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="terra.modis.landst.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="land surface temperature GEOTIFF"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="aqua.modis.crefl.rgbfire.geotiff"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="fire det. pxls on true color image"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="terra.modis.crefl.rgbfire.geotiff"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="fire det. pxls on true color image"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+<OutputType
+	name="aqua.modis.landst"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="land surface temperature"
+	level="2"
+	is-directory="gsfcdata/aqua/modis/level2/" />
+<OutputType
+	name="terra.modis.landst"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="land surface temperature"
+	level="2"
+	is-directory="gsfcdata/terra/modis/level2/" />
+</OutputTypes>
+</NISGS-SPA-INSTALL>

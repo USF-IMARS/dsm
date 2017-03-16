@@ -1,0 +1,1 @@
+javac -g -classpath .;/j/nasa/library/ftp.jar FtpTest.java

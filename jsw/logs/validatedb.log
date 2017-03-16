@@ -1,0 +1,1439 @@
+STATUS | wrapper  | 2017/02/17 11:34:22 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 11:34:22 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 11:34:22 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 11:34:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 11:34:22 | 
+STATUS | wrapper  | 2017/02/17 11:34:22 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 11:34:22 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 Validator starting run
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:34:23 | 2017-02-17 11:34:23 Validator ending run
+STATUS | wrapper  | 2017/02/17 11:37:37 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 11:37:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 11:39:29 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 11:39:29 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 11:39:29 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 11:39:29 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 11:39:29 | 
+STATUS | wrapper  | 2017/02/17 11:39:30 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 11:39:30 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 Validator starting run
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 113 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 6 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:39:30 | 2017-02-17 11:39:30 Validator ending run
+STATUS | wrapper  | 2017/02/17 11:40:05 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 11:40:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 11:52:19 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 11:52:19 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 11:52:19 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 11:52:19 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 11:52:19 | 
+STATUS | wrapper  | 2017/02/17 11:52:20 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 11:52:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 Validator starting run
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 119 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 11 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:52:20 | 2017-02-17 11:52:20 Validator ending run
+STATUS | wrapper  | 2017/02/17 11:52:54 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 11:52:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 11:54:25 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 11:54:25 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 11:54:25 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 11:54:25 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 11:54:25 | 
+STATUS | wrapper  | 2017/02/17 11:54:25 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 11:54:25 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 11:54:25 | 2017-02-17 11:54:25 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 11:54:25 | 2017-02-17 11:54:25 Validator starting run
+INFO   | jvm 1    | 2017/02/17 11:54:26 | 2017-02-17 11:54:25 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:54:26 | 2017-02-17 11:54:25 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:54:26 | 2017-02-17 11:54:25 119 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:54:26 | 2017-02-17 11:54:25 11 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 11:54:26 | 2017-02-17 11:54:25 Validator ending run
+STATUS | wrapper  | 2017/02/17 12:01:31 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 12:01:31 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 12:01:59 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 12:01:59 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 12:01:59 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 12:01:59 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 12:01:59 | 
+STATUS | wrapper  | 2017/02/17 12:01:59 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 12:02:00 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 Validator starting run
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 144 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 17 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:02:00 | 2017-02-17 12:02:00 Validator ending run
+STATUS | wrapper  | 2017/02/17 12:04:52 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 12:04:53 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 12:07:09 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 12:07:09 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 12:07:09 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 12:07:09 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 12:07:09 | 
+STATUS | wrapper  | 2017/02/17 12:07:10 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 12:07:10 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 Validator starting run
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 156 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 23 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:07:10 | 2017-02-17 12:07:10 Validator ending run
+STATUS | wrapper  | 2017/02/17 12:08:45 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 12:08:46 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 12:10:03 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 12:10:03 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 12:10:03 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 12:10:03 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 12:10:03 | 
+STATUS | wrapper  | 2017/02/17 12:10:03 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 12:10:04 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 Validator starting run
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 177 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 34 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 12:10:04 | 2017-02-17 12:10:04 Validator ending run
+STATUS | wrapper  | 2017/02/17 12:57:44 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 12:57:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 13:36:16 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 13:36:16 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 13:36:16 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 13:36:16 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 13:36:16 | 
+STATUS | wrapper  | 2017/02/17 13:36:16 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 13:36:17 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 Validator starting run
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 46 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 231 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 35 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 13:36:17 | 2017-02-17 13:36:17 Validator ending run
+STATUS | wrapper  | 2017/02/17 15:37:04 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 15:37:04 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 15:38:09 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 15:38:09 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 15:38:09 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 15:38:09 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 15:38:09 | 
+STATUS | wrapper  | 2017/02/17 15:38:10 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 15:38:10 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 Validator starting run
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 590 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 248 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 41 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:38:10 | 2017-02-17 15:38:10 Validator ending run
+STATUS | wrapper  | 2017/02/17 15:47:39 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 15:47:40 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/17 15:50:21 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/17 15:50:21 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/17 15:50:21 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/17 15:50:21 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/17 15:50:21 | 
+STATUS | wrapper  | 2017/02/17 15:50:21 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/17 15:50:22 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 ValidateDB ready
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 Validator starting run
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 630 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 261 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 47 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/17 15:50:22 | 2017-02-17 15:50:22 Validator ending run
+STATUS | wrapper  | 2017/02/17 15:50:50 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/17 15:50:51 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 08:53:51 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 08:53:51 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 08:53:51 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 08:53:51 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 08:53:51 | 
+STATUS | wrapper  | 2017/02/20 08:53:51 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 08:53:52 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 Validator starting run
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 646 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 241 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 47 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 08:53:52 | 2017-02-20 08:53:52 Validator ending run
+STATUS | wrapper  | 2017/02/20 09:50:31 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 09:50:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 09:57:28 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 09:57:28 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 09:57:28 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 09:57:28 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 09:57:28 | 
+STATUS | wrapper  | 2017/02/20 09:57:28 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 09:57:29 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 Validator starting run
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 988 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 323 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 53 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 09:57:29 | 2017-02-20 09:57:29 Validator ending run
+STATUS | wrapper  | 2017/02/20 12:38:28 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 12:38:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 13:18:10 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 13:18:10 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 13:18:10 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 13:18:10 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 13:18:10 | 
+STATUS | wrapper  | 2017/02/20 13:18:10 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 13:18:10 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 13:18:10 | 2017-02-20 13:18:10 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 13:18:10 | 2017-02-20 13:18:10 Validator starting run
+INFO   | jvm 1    | 2017/02/20 13:18:11 | 2017-02-20 13:18:11 560 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:18:11 | 2017-02-20 13:18:11 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:18:11 | 2017-02-20 13:18:11 349 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:18:11 | 2017-02-20 13:18:11 65 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:18:11 | 2017-02-20 13:18:11 Validator ending run
+STATUS | wrapper  | 2017/02/20 13:38:35 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 13:38:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 13:38:36 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 13:38:36 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 13:38:36 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 13:38:36 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 13:38:36 | 
+STATUS | wrapper  | 2017/02/20 13:38:36 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 13:38:36 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 13:38:36 | 2017-02-20 13:38:36 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 13:38:36 | 2017-02-20 13:38:36 Validator starting run
+INFO   | jvm 1    | 2017/02/20 13:38:36 | 2017-02-20 13:38:36 WARNING:Deleting /home/ipopp/drl/data/pub/gsfcdata/terra/modis/level0/P0420064AAAAAAAAAAAAAA17047153000000.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/20 13:38:36 | 2017-02-20 13:38:36 WARNING:Deleting /home/ipopp/drl/data/pub/gsfcdata/terra/modis/level0/P0420064AAAAAAAAAAAAAA17047153000001.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/20 13:38:36 | 2017-02-20 13:38:36 48 Products checked, 2 missing files
+INFO   | jvm 1    | 2017/02/20 13:38:37 | 2017-02-20 13:38:36 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:38:37 | 2017-02-20 13:38:36 362 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:38:37 | 2017-02-20 13:38:36 71 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:38:37 | 2017-02-20 13:38:36 WARNING:Removed 2 product and 0 ancillary records due to missing files
+INFO   | jvm 1    | 2017/02/20 13:38:37 | 2017-02-20 13:38:36 Validator ending run
+STATUS | wrapper  | 2017/02/20 13:43:32 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 13:43:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 13:45:50 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 13:45:50 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 13:45:50 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 13:45:50 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 13:45:50 | 
+STATUS | wrapper  | 2017/02/20 13:45:50 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 13:45:50 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 Validator starting run
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:45:51 | 2017-02-20 13:45:51 Validator ending run
+STATUS | wrapper  | 2017/02/20 13:47:21 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 13:47:22 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 13:49:08 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 13:49:08 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 13:49:08 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 13:49:08 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 13:49:08 | 
+STATUS | wrapper  | 2017/02/20 13:49:09 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 13:49:09 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 Validator starting run
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 92 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 6 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:49:09 | 2017-02-20 13:49:09 Validator ending run
+STATUS | wrapper  | 2017/02/20 13:50:45 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 13:50:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 13:51:46 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 13:51:46 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 13:51:46 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 13:51:46 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 13:51:46 | 
+STATUS | wrapper  | 2017/02/20 13:51:46 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 13:51:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 13:51:46 | 2017-02-20 13:51:46 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 13:51:46 | 2017-02-20 13:51:46 Validator starting run
+INFO   | jvm 1    | 2017/02/20 13:51:47 | 2017-02-20 13:51:46 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:51:47 | 2017-02-20 13:51:46 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:51:47 | 2017-02-20 13:51:46 148 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:51:47 | 2017-02-20 13:51:46 12 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 13:51:47 | 2017-02-20 13:51:46 Validator ending run
+STATUS | wrapper  | 2017/02/20 13:57:40 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 13:57:41 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 14:00:33 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 14:00:33 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 14:00:33 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 14:00:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 14:00:33 | 
+STATUS | wrapper  | 2017/02/20 14:00:33 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 14:00:33 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 Validator starting run
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 162 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 18 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:00:33 | 2017-02-20 14:00:33 Validator ending run
+STATUS | wrapper  | 2017/02/20 14:13:54 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/20 14:13:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/20 14:18:45 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/20 14:18:45 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/20 14:18:45 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/20 14:18:45 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/20 14:18:45 | 
+STATUS | wrapper  | 2017/02/20 14:18:45 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/20 14:18:45 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 ValidateDB ready
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 Validator starting run
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 20 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 178 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 24 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/20 14:18:46 | 2017-02-20 14:18:46 Validator ending run
+STATUS | wrapper  | 2017/02/21 08:48:01 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 08:48:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 08:48:03 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 08:48:03 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 08:48:03 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 08:48:03 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 08:48:03 | 
+STATUS | wrapper  | 2017/02/21 08:48:04 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 08:48:04 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 Validator starting run
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 42 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 242 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 42 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:48:04 | 2017-02-21 08:48:04 Validator ending run
+STATUS | wrapper  | 2017/02/21 08:50:33 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 08:50:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 08:54:59 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 08:54:59 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 08:54:59 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 08:54:59 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 08:54:59 | 
+STATUS | wrapper  | 2017/02/21 08:55:00 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 08:55:00 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 Validator starting run
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 42 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 242 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 42 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 08:55:00 | 2017-02-21 08:55:00 Validator ending run
+STATUS | wrapper  | 2017/02/21 09:44:10 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 09:44:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 09:44:12 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 09:44:12 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 09:44:12 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 09:44:12 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 09:44:12 | 
+STATUS | wrapper  | 2017/02/21 09:44:12 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 09:44:12 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 Validator starting run
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 54 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 257 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 48 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:44:12 | 2017-02-21 09:44:12 Validator ending run
+STATUS | wrapper  | 2017/02/21 09:47:25 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 09:47:25 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 09:54:30 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 09:54:30 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 09:54:30 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 09:54:30 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 09:54:30 | 
+STATUS | wrapper  | 2017/02/21 09:54:30 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 09:54:30 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 09:54:30 | 2017-02-21 09:54:30 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 09:54:30 | 2017-02-21 09:54:30 Validator starting run
+INFO   | jvm 1    | 2017/02/21 09:54:31 | 2017-02-21 09:54:30 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:54:31 | 2017-02-21 09:54:30 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:54:31 | 2017-02-21 09:54:30 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:54:31 | 2017-02-21 09:54:30 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 09:54:31 | 2017-02-21 09:54:30 Validator ending run
+STATUS | wrapper  | 2017/02/21 10:13:28 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 10:13:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 10:15:27 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 10:15:27 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 10:15:27 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 10:15:27 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 10:15:27 | 
+STATUS | wrapper  | 2017/02/21 10:15:27 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 10:15:27 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 10:15:27 | 2017-02-21 10:15:27 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 10:15:27 | 2017-02-21 10:15:27 Validator starting run
+INFO   | jvm 1    | 2017/02/21 10:15:28 | 2017-02-21 10:15:27 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:15:28 | 2017-02-21 10:15:27 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:15:28 | 2017-02-21 10:15:27 110 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:15:28 | 2017-02-21 10:15:27 6 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:15:28 | 2017-02-21 10:15:27 Validator ending run
+STATUS | wrapper  | 2017/02/21 10:17:01 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 10:17:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 10:18:39 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 10:18:39 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 10:18:39 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 10:18:39 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 10:18:39 | 
+STATUS | wrapper  | 2017/02/21 10:18:39 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 10:18:39 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 Validator starting run
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 122 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 12 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:18:39 | 2017-02-21 10:18:39 Validator ending run
+STATUS | wrapper  | 2017/02/21 10:21:04 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 10:21:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 10:26:30 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 10:26:30 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 10:26:30 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 10:26:30 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 10:26:30 | 
+STATUS | wrapper  | 2017/02/21 10:26:30 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 10:26:30 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 Validator starting run
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 184 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 18 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:26:31 | 2017-02-21 10:26:31 Validator ending run
+STATUS | wrapper  | 2017/02/21 10:40:01 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 10:40:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 10:58:51 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 10:58:51 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 10:58:51 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 10:58:51 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 10:58:51 | 
+STATUS | wrapper  | 2017/02/21 10:58:52 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 10:58:52 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 Validator starting run
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 10:58:52 | 2017-02-21 10:58:52 Validator ending run
+STATUS | wrapper  | 2017/02/21 12:12:37 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 12:12:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 12:16:07 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 12:16:07 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 12:16:07 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 12:16:07 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 12:16:07 | 
+STATUS | wrapper  | 2017/02/21 12:16:07 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 12:16:07 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 Validator starting run
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 79 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 179 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 12 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 12:16:07 | 2017-02-21 12:16:07 Validator ending run
+STATUS | wrapper  | 2017/02/21 15:24:57 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/21 15:24:58 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/21 15:44:03 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/21 15:44:03 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/21 15:44:03 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/21 15:44:03 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/21 15:44:03 | 
+STATUS | wrapper  | 2017/02/21 15:44:04 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/21 15:44:04 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 ValidateDB ready
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 Validator starting run
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 78 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 203 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 22 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/21 15:44:04 | 2017-02-21 15:44:04 Validator ending run
+STATUS | wrapper  | 2017/02/22 09:44:05 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/22 09:44:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/22 09:44:06 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/22 09:44:06 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/22 09:44:06 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/22 09:44:06 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/22 09:44:06 | 
+STATUS | wrapper  | 2017/02/22 09:44:06 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/22 09:44:06 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 ValidateDB ready
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 Validator starting run
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 92 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 249 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 36 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:44:07 | 2017-02-22 09:44:07 Validator ending run
+STATUS | wrapper  | 2017/02/22 09:46:13 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/22 09:46:16 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/22 09:50:27 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/22 09:50:27 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/22 09:50:27 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/22 09:50:27 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/22 09:50:27 | 
+STATUS | wrapper  | 2017/02/22 09:50:27 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/22 09:50:28 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 ValidateDB ready
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 Validator starting run
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 92 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 252 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 38 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 09:50:28 | 2017-02-22 09:50:28 Validator ending run
+STATUS | wrapper  | 2017/02/22 10:25:48 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/22 10:25:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/22 10:30:19 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/22 10:30:19 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/22 10:30:19 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/22 10:30:19 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/22 10:30:19 | 
+STATUS | wrapper  | 2017/02/22 10:30:19 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/22 10:30:19 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/22 10:30:19 | 2017-02-22 10:30:19 ValidateDB ready
+INFO   | jvm 1    | 2017/02/22 10:30:19 | 2017-02-22 10:30:19 Validator starting run
+INFO   | jvm 1    | 2017/02/22 10:30:20 | 2017-02-22 10:30:19 92 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 10:30:20 | 2017-02-22 10:30:20 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 10:30:20 | 2017-02-22 10:30:20 270 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 10:30:20 | 2017-02-22 10:30:20 44 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 10:30:20 | 2017-02-22 10:30:20 Validator ending run
+STATUS | wrapper  | 2017/02/22 13:38:59 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/22 13:38:59 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/22 13:40:46 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/22 13:40:46 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/22 13:40:46 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/22 13:40:46 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/22 13:40:46 | 
+STATUS | wrapper  | 2017/02/22 13:40:46 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/22 13:40:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 ValidateDB ready
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 Validator starting run
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/22 13:40:46 | 2017-02-22 13:40:46 Validator ending run
+STATUS | wrapper  | 2017/02/23 09:31:19 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/23 09:31:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/23 09:31:41 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/23 09:31:41 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/23 09:31:41 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/23 09:31:41 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/23 09:31:41 | 
+STATUS | wrapper  | 2017/02/23 09:31:42 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/23 09:31:42 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 ValidateDB ready
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 Validator starting run
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 68 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 212 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 18 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 09:31:42 | 2017-02-23 09:31:42 Validator ending run
+STATUS | wrapper  | 2017/02/23 15:23:42 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/23 15:23:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/23 15:24:42 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/23 15:24:42 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/23 15:24:42 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/23 15:24:42 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/23 15:24:42 | 
+STATUS | wrapper  | 2017/02/23 15:24:42 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/23 15:24:42 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 ValidateDB ready
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 Validator starting run
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 76 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 228 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 24 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:24:42 | 2017-02-23 15:24:42 Validator ending run
+STATUS | wrapper  | 2017/02/23 15:25:49 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/23 15:25:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/23 15:26:17 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/23 15:26:17 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/23 15:26:17 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/23 15:26:17 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/23 15:26:17 | 
+STATUS | wrapper  | 2017/02/23 15:26:18 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/23 15:26:18 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 ValidateDB ready
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 Validator starting run
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 76 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 239 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 30 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/23 15:26:18 | 2017-02-23 15:26:18 Validator ending run
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 Validator starting run
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 63 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 312 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 54 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 15:26:18 | 2017-02-24 15:26:18 Validator ending run
+STATUS | wrapper  | 2017/02/24 16:55:34 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/24 16:55:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/24 17:56:33 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/24 17:56:33 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/24 17:56:33 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/24 17:56:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/24 17:56:33 | 
+STATUS | wrapper  | 2017/02/24 17:56:33 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/24 17:56:34 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 ValidateDB ready
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 Validator starting run
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 87 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 321 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 60 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/24 17:56:34 | 2017-02-24 17:56:34 Validator ending run
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 Validator starting run
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 53 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 367 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 84 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/25 17:56:34 | 2017-02-25 17:56:34 Validator ending run
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 Validator starting run
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 53 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 408 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 102 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/26 17:56:34 | 2017-02-26 17:56:34 Validator ending run
+STATUS | wrapper  | 2017/02/27 16:22:49 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/27 16:22:51 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/27 16:22:51 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/27 16:22:51 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/27 16:22:51 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/27 16:22:51 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/27 16:22:51 | 
+STATUS | wrapper  | 2017/02/27 16:22:51 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/27 16:22:52 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/27 16:22:53 | 2017-02-27 16:22:53 ValidateDB ready
+INFO   | jvm 1    | 2017/02/27 16:22:53 | 2017-02-27 16:22:53 Validator starting run
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:53 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level0/P0420064AAAAAAAAAAAAAA17047153000000.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:53 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level0/P0420064AAAAAAAAAAAAAA17047153000001.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:53 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level1/MOD01.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:53 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level1/MOD03.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:53 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level1/MOD021KM.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level1/MOD02HKM.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level1/MOD02QKM.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level2/terra.SST.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level2/terra.SST.FILTERED.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A01.sst.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A02.sst.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A03.sst.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A04.sst.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A05.sst.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.gcoos.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.gcoos.sst.png from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.east_caribbean.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.west_caribbean.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_central.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_chiloe.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_north.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_south.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.venezuela_scar.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.seacoos.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.gcoos.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.east_caribbean.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.west_caribbean.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_central.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_chiloe.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_north.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.chile_south.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.venezuela_scar.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.seacoos.sst.filtered.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/terra/modis/level2/terra.OC.17047153000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A01.chl.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A02.chl.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.A05.chl.tiff from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level0/P1540064AAAAAAAAAAAAAA17048190500000.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level0/P1540064AAAAAAAAAAAAAA17048190500001.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD01.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD03.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level0/P1540064AAAAAAAAAAAAAA17048191000000.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level0/P1540064AAAAAAAAAAAAAA17048191000001.PDS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD01.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD03.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD021KM.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD02HKM.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD02QKM.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD021KM.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD02HKM.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level1/MYD02QKM.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level2/aqua.OC.17048190500.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level2/aqua.OC.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.seacoos.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.seacoos.chlor_a.png from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/terra/modis/level3/terra.2017047.1530.seacoos.nflh.png from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_bahia.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_bahia.chlor_a.png from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_bahia.nflh.png from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_egi.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_patagonia.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.argentina_san_jorge.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.chile_central.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.chile_chiloe.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/data/aqua/modis/level3/aqua.2017048.1905.chile_south.oc.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/gsfcdata/aqua/modis/level2/aqua.OC.17048191000.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 66 Products checked, 66 missing files
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022200.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022213 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017045.006.2017053094736.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017044.006.2017052234038.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170221.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705100_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170222 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022113 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017044.006.2017053003932.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022013 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170219.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017043.006.2017051192034.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705000_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017021913 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170221 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170220.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017043.006.2017053004044.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017042.006.2017050190109.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017021813 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170218.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704900_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170220 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017041.006.2017049184757.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170222.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170214.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704800_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170217.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170219 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170213.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170221.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704700_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170216.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704600_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170212.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170215.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704500_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170211.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704400_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170220.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704300_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704200_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170219.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704100_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201704000_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170218.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201703900_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170222.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170222.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170221.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170221.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170221.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170221.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170220.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170215 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170208 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170201 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170125 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170118 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170111 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170220.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170207.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170207.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170207.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170207.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170206.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022200.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170206.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170206.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170206.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705306_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705300_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705218_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705212_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705206_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705200_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705118_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705112_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705106_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705100_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705018_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705012_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705006_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705000_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704918_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704912_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704906_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704900_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704818_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704812_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704806_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704800_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704718_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704712_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704706_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704700_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704618_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704612_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704606_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704600_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704518_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704512_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704506_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704500_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704418_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704412_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704406_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704400_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704318_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704312_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704306_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704300_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704218_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704212_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704206_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704200_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704118_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704112_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704106_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704100_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704018_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704012_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704006_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201704000_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201703918_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201703912_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170520005223_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170510005123_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170500005023_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170490004923_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170480004823_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170470004723_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170460004623_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170450004523_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170440004423_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170430004323_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170420004223_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170410004123_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170400004023_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170390003923_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170222.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170208.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170208.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705312_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705200_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170222.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017045.006.2017053194849.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705318_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170223.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705400_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170222.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170223.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170209.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170208.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170208.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705406_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022313 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022300.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017046.006.2017054092651.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170223 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017039.006.2017052162617.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022300.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022300.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022300.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022300.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170530005323_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170223.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170223.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705412_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705300_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170224_201702240000Z_20170224000011Z_ee20170303120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170203_201702030000Z_20170203004008Z_ee20170210120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170223.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170209.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170209.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022400.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017046.006.2017054180726.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022400.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705418_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170224.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705500_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163208.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0205t192726-o27346-2017m0209t163232.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170223.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170224.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705506_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017040.006.2017053004632.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022413 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022400.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170224 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170224.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170224_201702240000Z_20170224000011Z_ee20170303120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022400.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170540005423_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170224.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170210.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170210.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170209.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705512_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705400_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170224_201702240000Z_20170224000011Z_ee20170303120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170224.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017047.006.2017055190249.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705518_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170225.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170210.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170210.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705600_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170225.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170225.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170225.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170225.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170224.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170225.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705606_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017041.006.2017053004626.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022513 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170225.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170225.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170225.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170225.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170225.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170225.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705612_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170225 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170225.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170225.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170225.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705500_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170225.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170224_201702240000Z_20170224000011Z_ee20170303120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170225.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170211.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170211.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170211.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017048.006.2017056181104.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170226.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170226.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170226.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170225.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705618_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170226.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705700_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170226.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170226.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170226.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170226.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170225.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170226.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170212.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170211.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170550005523_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705706_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MODCSR_B.A2017042.006.2017053003752.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022613 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170226.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170226.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170226.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170226.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/nise/NISE_SSMIF13_20170226.HDFEOS from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170226.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705712_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/seaice/eng.170226 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170226.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170226.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170226.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansice/N201705600_SEAICE_NSIDC_24h.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170226.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170224_201702240000Z_20170224000011Z_ee20170303120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170217_201702170000Z_20170217000007Z_ee20170224120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/off_USNO-PolarWander-UT1-ANC_Ser7_USNO_000f_20170210_201702100000Z_20170210000008Z_ee20170217120000Z_np.ascii from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170226.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/leapsec.2017022700.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/csrb/MYDCSR_B.A2017049.006.2017057182709.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/utcpole.2017022700.dat from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170227.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170227.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170227.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t18.170226.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705718_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170227.00z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170212.18z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170212.12z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170212.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705800_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170209.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-NP_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072534.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0219t200645-o27545-2017m0223t170908.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/omps/OMPS-NPP-TC_DRK-p058-v1.0-2017m0212t102848-o27440-2017m0216t072541.h5 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170227.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170227.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170227.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t00.170227.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/toast/TOAST16_170226.GRB from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/sst/oisst.20170222 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gdas/gdas1.PGrbF00.170227.06z from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceanstoast/S20170560005623_TOAST.OZONE from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/oceansmet/S201705806_NCEP.MET from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/ephemeris/tle/drl.tle.2017022713 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/atms/ATMS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/cris/CRIS-SDR_BE_LUTs_150416.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/npp/viirs/VIIRS-SDR_BE_LUTs_170218.tar.gz from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170227.pgrbf03 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170227.pgrbf06 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t12.170227.pgrbf09 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/temporal/global/gfs/gfs.t06.170227.pgrbf12 from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 453 TimeAncillaries checked, 453 missing files
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_QA_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_QA_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Emissive_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Emissive_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/terra/modis/MOD02_Reflective_LUTs.V6.1.20.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Deleting /thing1/ipopp-nrt/pub/ancillary/LUTs/aqua/modis/MYD02_Reflective_LUTs.V6.1.35.9.hdf from database; file is gone
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 120 SatTimeAncillaries checked, 120 missing files
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 WARNING:Removed 66 product and 573 ancillary records due to missing files
+INFO   | jvm 1    | 2017/02/27 16:22:54 | 2017-02-27 16:22:54 Validator ending run
+STATUS | wrapper  | 2017/02/27 16:23:36 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/27 16:23:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/27 16:23:37 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/27 16:23:37 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/27 16:23:37 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/27 16:23:37 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/27 16:23:37 | 
+STATUS | wrapper  | 2017/02/27 16:23:38 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/27 16:23:38 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 ValidateDB ready
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 Validator starting run
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:23:38 | 2017-02-27 16:23:38 Validator ending run
+STATUS | wrapper  | 2017/02/27 16:28:48 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/27 16:28:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/27 16:28:49 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/27 16:28:49 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/27 16:28:49 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/27 16:28:49 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/27 16:28:49 | 
+STATUS | wrapper  | 2017/02/27 16:28:50 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/27 16:28:50 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 ValidateDB ready
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 Validator starting run
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:28:50 | 2017-02-27 16:28:50 Validator ending run
+STATUS | wrapper  | 2017/02/27 16:29:22 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/27 16:29:23 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/27 16:29:23 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/27 16:29:23 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/27 16:29:23 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/27 16:29:23 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/27 16:29:23 | 
+STATUS | wrapper  | 2017/02/27 16:29:24 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/27 16:29:24 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 ValidateDB ready
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 Validator starting run
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 0 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 0 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/27 16:29:24 | 2017-02-27 16:29:24 Validator ending run
+STATUS | wrapper  | 2017/02/28 14:41:31 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/02/28 14:41:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/02/28 14:41:52 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/02/28 14:41:52 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/02/28 14:41:52 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/02/28 14:41:52 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/02/28 14:41:52 | 
+STATUS | wrapper  | 2017/02/28 14:41:53 | Launching a JVM...
+INFO   | jvm 1    | 2017/02/28 14:41:53 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 ValidateDB ready
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 Validator starting run
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 54 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 12 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/02/28 14:41:53 | 2017-02-28 14:41:53 Validator ending run
+INFO   | jvm 1    | 2017/03/01 14:41:53 | 2017-03-01 14:41:53 Validator starting run
+INFO   | jvm 1    | 2017/03/01 14:41:54 | 2017-03-01 14:41:54 0 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/01 14:41:54 | 2017-03-01 14:41:54 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/01 14:41:54 | 2017-03-01 14:41:54 129 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/01 14:41:54 | 2017-03-01 14:41:54 42 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/01 14:41:54 | 2017-03-01 14:41:54 Validator ending run
+INFO   | jvm 1    | 2017/03/02 14:41:55 | 2017-03-02 14:41:54 Validator starting run
+INFO   | jvm 1    | 2017/03/02 14:41:57 | 2017-03-02 14:41:57 55 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/02 14:41:57 | 2017-03-02 14:41:57 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/02 14:41:57 | 2017-03-02 14:41:57 175 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/02 14:41:57 | 2017-03-02 14:41:57 60 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/02 14:41:57 | 2017-03-02 14:41:57 Validator ending run
+INFO   | jvm 1    | 2017/03/03 14:41:59 | 2017-03-03 14:41:57 Validator starting run
+INFO   | jvm 1    | 2017/03/03 14:42:05 | 2017-03-03 14:42:05 55 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/03 14:42:05 | 2017-03-03 14:42:05 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/03 14:42:06 | 2017-03-03 14:42:06 231 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/03 14:42:07 | 2017-03-03 14:42:07 78 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/03 14:42:07 | 2017-03-03 14:42:07 Validator ending run
+STATUS | wrapper  | 2017/03/03 21:35:51 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/03/03 21:36:19 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/03/06 17:34:33 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/03/06 17:34:33 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/03/06 17:34:33 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/03/06 17:34:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/03/06 17:34:33 | 
+STATUS | wrapper  | 2017/03/06 17:34:34 | Launching a JVM...
+INFO   | jvm 1    | 2017/03/06 17:34:34 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 ValidateDB ready
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 Validator starting run
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 55 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 204 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 84 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/06 17:34:34 | 2017-03-06 17:34:34 Validator ending run
+STATUS | wrapper  | 2017/03/06 21:11:41 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/03/06 21:11:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/03/08 15:01:49 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/03/08 15:01:49 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/03/08 15:01:49 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/03/08 15:01:49 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/03/08 15:01:49 | 
+STATUS | wrapper  | 2017/03/08 15:01:50 | Launching a JVM...
+INFO   | jvm 1    | 2017/03/08 15:01:51 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/03/08 15:01:51 | 2017-03-08 15:01:51 ValidateDB ready
+INFO   | jvm 1    | 2017/03/08 15:01:51 | 2017-03-08 15:01:51 Validator starting run
+INFO   | jvm 1    | 2017/03/08 15:01:52 | 2017-03-08 15:01:52 57 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/08 15:01:52 | 2017-03-08 15:01:52 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/08 15:01:54 | 2017-03-08 15:01:53 284 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/08 15:01:54 | 2017-03-08 15:01:54 90 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/08 15:01:54 | 2017-03-08 15:01:54 Validator ending run
+STATUS | wrapper  | 2017/03/08 21:01:03 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/03/08 21:01:04 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/03/09 20:23:22 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/03/09 20:23:22 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/03/09 20:23:22 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/03/09 20:23:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/03/09 20:23:22 | 
+STATUS | wrapper  | 2017/03/09 20:23:23 | Launching a JVM...
+INFO   | jvm 1    | 2017/03/09 20:23:23 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 ValidateDB ready
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 Validator starting run
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 82 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 337 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 102 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/09 20:23:23 | 2017-03-09 20:23:23 Validator ending run
+INFO   | jvm 1    | 2017/03/10 20:23:23 | 2017-03-10 20:23:23 Validator starting run
+INFO   | jvm 1    | 2017/03/10 20:23:24 | 2017-03-10 20:23:24 82 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/10 20:23:24 | 2017-03-10 20:23:24 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/10 20:23:24 | 2017-03-10 20:23:24 455 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/10 20:23:24 | 2017-03-10 20:23:24 126 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/10 20:23:24 | 2017-03-10 20:23:24 Validator ending run
+INFO   | jvm 1    | 2017/03/11 20:23:24 | 2017-03-11 20:23:24 Validator starting run
+INFO   | jvm 1    | 2017/03/11 20:23:24 | 2017-03-11 20:23:24 79 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/11 20:23:24 | 2017-03-11 20:23:24 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/11 20:23:25 | 2017-03-11 20:23:25 497 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/11 20:23:25 | 2017-03-11 20:23:25 144 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/11 20:23:25 | 2017-03-11 20:23:25 Validator ending run
+INFO   | jvm 1    | 2017/03/12 20:23:25 | 2017-03-12 20:23:25 Validator starting run
+INFO   | jvm 1    | 2017/03/12 20:23:25 | 2017-03-12 20:23:25 79 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/12 20:23:25 | 2017-03-12 20:23:25 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/12 20:23:26 | 2017-03-12 20:23:26 513 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/12 20:23:26 | 2017-03-12 20:23:26 156 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/12 20:23:26 | 2017-03-12 20:23:26 Validator ending run
+STATUS | wrapper  | 2017/03/13 13:57:20 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/03/13 13:57:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/03/13 15:19:43 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/03/13 15:19:43 | Java Service Wrapper Community Edition 64-bit 3.5.24
+STATUS | wrapper  | 2017/03/13 15:19:43 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/03/13 15:19:43 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/03/13 15:19:43 | 
+STATUS | wrapper  | 2017/03/13 15:19:44 | Launching a JVM...
+INFO   | jvm 1    | 2017/03/13 15:19:44 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 ValidateDB ready
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 Validator starting run
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 79 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 523 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 156 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/13 15:19:44 | 2017-03-13 15:19:44 Validator ending run
+INFO   | jvm 1    | 2017/03/14 15:19:45 | 2017-03-14 15:19:44 Validator starting run
+INFO   | jvm 1    | 2017/03/14 15:19:50 | 2017-03-14 15:19:50 86 Products checked, 0 missing files
+INFO   | jvm 1    | 2017/03/14 15:19:50 | 2017-03-14 15:19:50 0 StaticAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/14 15:19:50 | 2017-03-14 15:19:50 576 TimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/14 15:19:51 | 2017-03-14 15:19:51 180 SatTimeAncillaries checked, 0 missing files
+INFO   | jvm 1    | 2017/03/14 15:19:51 | 2017-03-14 15:19:51 Validator ending run
+STATUS | wrapper  | 2017/03/14 16:08:03 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2017/03/14 16:08:06 | <-- Wrapper Stopped

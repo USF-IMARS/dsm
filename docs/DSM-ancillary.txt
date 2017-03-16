@@ -1,0 +1,75 @@
+HOW TO PUT ANCILLARY DATA FILES INTO THE DSM
+
+The files you need are in the nisgs account on is. In the dsm directory,
+you should find a zip file containing the javadoc documentation for the dsm
+library. Download it to your computer and unzip it. You will see the docs
+in your browser when you doubleclick on index.html.
+
+You will find jar files in the lib directory. Once you have implemented dsm
+code, you run like this:
+
+java -cp <your-path>:/home/nisgs/lib/dsm.jar:/home/nisgs/lib/mysql-jdbc.jar ...
+
+I usually put the statement into a executable script.
+
+You may have problems compiling unless you include the dsm jar. You can specify
+the classpath on the javac command line.
+javac -classpath <your-path>:/home/nisgs/lib/dsm.jar ...
+
+In your code, import the dsm library.
+import gov.nasa.gsfc.nisgs.dsm.DSM;
+
+Here's a code fragment that inserts ancillary files into the dsm. I comment
+on the code following the fragment.
+
+void store() throws Exception
+{
+    DSM dsm = new DSM("IS","my_subsystem_name","my_program_name",
+            "nisds1.sci.gsfc.nasa.gov");
+
+
+    dsm.putStaticAncillary("dem","/datadirectory/dem.dat");
+
+    //putUTCPOLE(java.util.Date date, String absolutePath) throws Exception
+    dsm.putUTCPOLE(date,"/datadirectory/utcpole.dat");
+
+    //putLEAPSEC(java.util.Date date, String absolutePath) throws Exception
+    dsm.putLEAPSEC(date,"/datadirectory/leapsec.dat");
+
+    //putTLE(java.util.Date date, String spacecraft, String absolutePath) throws Exception
+    dsm.putLEAPSEC(date,"AQUA","/datadirectory/tle.dat");
+
+
+    dsm.dispose();
+}
+
+Please see the documentation for DSM for all method calls.
+
+Constructing a DSM object establishes a tcp/ip connection to the mysql server
+on nisds1 and opens a database connection. Because port access is restricted,
+you cannot run dsm programs anywhere but on the three computers. The dispose()
+method closes database connections and port connections. It is completely
+reasonable to create a dsm object, use it, and dispose it as opposed to creating
+a DSM object and saving it forever.
+
+Substitute appropriate names for fields in the DSM constructor.
+The first argument is a name for your computer, and it must be "IS" (all caps)
+for the IS computer. The subsystem and program names will be used for debugging.
+Use whatever you want. The last argument must be the computer where the dsm
+database resides, so it must be nisds1.
+
+All dsm methods throw exceptions, so don't forget to catch them.
+Each file name must be a complete absolute path to the file.
+The name part of a file (without the directory) should be unique to avoid
+overwriting problems. The DSM does not demand any sort of file naming convention.
+Try not to delete or overwrite anything you put into the DSM because the DSM
+won't know it, and things can go wrong if Charlie asks for a file that no longer
+exists.
+
+putStaticAncillary is for ancillary files that never change. The first argument
+is a unique keyword that charlie uses to get the file.
+
+The other three are fairly self-explanatory. Use "AQUA" or "TERRA" for spacecraft
+names in the TLE.
+
+stan@hilinski.net

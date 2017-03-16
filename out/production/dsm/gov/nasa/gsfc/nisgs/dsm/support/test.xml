@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product id="1000">
+<productType description="product type description" level="0" name="aqua.pds.modis" sensor="modis" spacecraft="AQUA"/>
+<pass id="100">
+<station>gsfc 28</station>
+<spacecraft>AQUA</spacecraft>
+<aos>13-aug-2005 10:00:00</aos>
+<los>13-aug-2005 10:10:00</los>
+<centerLatitude>0.0</centerLatitude>
+<centerLongitude>0.0</centerLongitude>
+<northLatitude>0.0</northLatitude>
+<southLatitude>0.0</southLatitude>
+<eastLongitude>0.0</eastLongitude>
+<westLongitude>0.0</westLongitude>
+</pass>
+<startTime>15-aug-2005 10:00:00</startTime>
+<stopTime>15-aug-2005 10:10:00</stopTime>
+<creation>15-aug-2005 10:15:00</creation>
+<agent>pds-mover</agent>
+<centerLatitude>0.0</centerLatitude>
+<centerLongitude>0.0</centerLongitude>
+<northLatitude>0.0</northLatitude>
+<southLatitude>0.0</southLatitude>
+<eastLongitude>0.0</eastLongitude>
+<westLongitude>0.0</westLongitude>
+<subproduct>PDS</subproduct>
+<algorithm>rtstps</algorithm>
+<algorithmVersion>1.</algorithmVersion>
+<resources>
+<resource description="this is a resource" directory="/gsfcdata" path="file.pds" rkey="data0"/>
+<resource description="this is a resource" directory="/gsfcdata" path="file.pds" rkey="data1"/>
+<resource description="this is a resource" directory="/gsfcdata" path="file.pds" rkey="data2"/>
+</resources>
+<thumbnails>
+<thumbnail description="this is a thumbnail" directory="/gsfcdata" path="file.pds"/>
+<thumbnail description="this is a thumbnail" directory="/gsfcdata" path="file.pds"/>
+<thumbnail description="this is a thumbnail" directory="/gsfcdata" path="file.pds"/>
+</thumbnails>
+<contributors>
+<contributor description="this is a contributor" path="file.pds"/>
+<contributor description="this is a contributor" path="file.pds"/>
+<contributor description="this is a contributor" path="file.pds"/>
+</contributors>
+</product>

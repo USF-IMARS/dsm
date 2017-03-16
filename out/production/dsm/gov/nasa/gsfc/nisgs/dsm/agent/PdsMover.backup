@@ -1,0 +1,175 @@
+package gov.nasa.gsfc.nisgs.dsm.agent;
+import gov.nasa.gsfc.nisgs.dsm.*;
+import java.io.File;
+import java.io.FilenameFilter;
+
+/**
+ * PdsMover moves level 0 PDS files from the local computer to the IS computer.
+ * It has two -D parameters, -DsleepSeconds=30 and -DerrorLimit=2
+ * @author Stan Hilinski, January 2005
+ */
+public class PdsMover
+{
+    private static final String MYNAME = "pds-mover";
+    private static final long ONE_SECOND = 1000L;
+    private static int errorLimit = 2;
+    private DsmLog logger;
+    private DsmProperties config;
+    private File is_dropbox;
+    private int consecutiveFailures = 0;
+    private File problemFilesDirectory;
+
+    public static void main(String[] args) throws Exception
+    {
+        int n = Integer.getInteger("sleepSeconds",30).intValue();
+        if (n < 1) n = 1;
+        long sleepyTime = (long)n * ONE_SECOND;
+        errorLimit = Integer.getInteger("errorLimit",2).intValue();
+
+        //My key for new PDS products is the existence of construction record files.
+        FilenameFilter pdsFilter = new FilenameFilter() {
+            public boolean accept(File dir, String name)
+            {
+                return name.endsWith("0.PDS");
+            }
+        };
+
+        DsmLog log = new DsmLog("PdsMover");
+        PdsMover mover = new PdsMover(log);
+
+        while (true)
+        {
+            try
+            {
+                mover.run(pdsFilter);
+            }
+            catch (Exception re)
+            {
+                log.report(re);
+            }
+            try { Thread.sleep(sleepyTime); } catch (InterruptedException e) {}
+        }
+    }
+
+    PdsMover(DsmLog log) throws Exception
+    {
+        this.logger = log;
+
+        //The DSM properties class holds the contents of the dsm.properties file.
+        config = new DsmProperties();
+        is_dropbox = new File(config.getProperty("is_dropbox","/"));
+
+        //I copy problem files to the failure directory.
+        problemFilesDirectory = new File(config.getLocalDataDirectory(),"FAILED/");
+        if (!problemFilesDirectory.exists())
+        {
+            problemFilesDirectory.mkdir();
+        }
+        logger.report("PdsMover ready.");
+    }
+
+    void run(FilenameFilter pdsFilter) throws Exception
+    {
+        //Get all construction records in the pds directory.
+        File pdsDirectory = new File(config.getLocalDataDirectory());
+        File[] pdsFiles = pdsDirectory.listFiles(pdsFilter);
+        if (pdsFiles.length > 0)
+        {
+            final boolean passive = true;
+            FtpSender ftp = new FtpSender(config.getIS_Name(),
+                    config.getIS_Host(),passive,
+                    config.getProperty("is_ftpWriterUser"),
+                    config.getProperty("is_ftpWriterPassword"));
+            try
+            {
+                transfer(ftp,pdsFiles);
+            }
+            catch (Exception te)
+            {
+                throw te;
+            }
+            finally
+            {
+                ftp.quit();
+            }
+        }
+    }
+
+    private void transfer(FtpSender ftp, File[] pdsFiles) throws Exception
+    {
+        //Any DSM setup exceptions are fatal and rethrown. Exceptions in the try/catch
+        //block will just abort the current session, and we will try again in the next
+        //cycle.
+        DSMAdministrator dsm = new DSMAdministrator(MYNAME,MYNAME);
+
+        //I get all level 0 products that I put into the dsm. I do this so I can
+        //skip PDS files that I have already processed.
+        java.util.List<Product> dsmProducts = null;
+        try
+        {
+            dsmProducts = dsm.getProductsByAgent(MYNAME);
+        }
+        catch (Exception dsmpe)
+        {
+            dsm.dispose();
+            throw dsmpe;
+        }
+
+        boolean failed = false;
+
+        //I process each PDS in my list of files.
+        for (int n = 0; n < pdsFiles.length; n++)
+        {
+            PDS pds = new PDS(MYNAME,pdsFiles[n],dsm);
+            try
+            {
+                if (pds.getFault() != null)
+                {
+                    throw new Exception(pds.getFault());
+                }
+                if (dsmProducts.contains(pds))
+                {
+                    throw new Exception("DSM already contains " + pds);
+                }
+                else
+                {
+                    //From the product type, I get the IS directory from the dsm
+                    //to where I will put the pds. If the dsm does not have a directory,
+                    //I put the pds in the IS "dropbox."
+                    File remoteDirectory = is_dropbox;
+                    ProductType productType = pds.getProductType();
+                    if (productType != null && productType.getISdirectory() != null)
+                    {
+                        remoteDirectory = productType.getISdirectory();
+                    }
+
+                    Product product = pds.createProduct(remoteDirectory);
+                    logger.report("Send to IS "+product);
+                    ftp.sendPDS(pds,remoteDirectory);
+                    dsm.storeProduct(ftp.getSite(),product);
+                    pds.delete();
+                }
+            }
+            catch (Exception pe)
+            {
+                failed = true;
+                if (consecutiveFailures > errorLimit && pds != null)
+                {
+                    logger.report("PdsMover Error",pe);
+                    pds.move(problemFilesDirectory);
+                }
+            }
+        }
+
+        if (failed)
+        {
+            ++consecutiveFailures;
+        }
+        else
+        {
+            consecutiveFailures = 0;
+        }
+
+        try { dsm.dispose(); } catch (Exception edispose) {};
+    }
+}

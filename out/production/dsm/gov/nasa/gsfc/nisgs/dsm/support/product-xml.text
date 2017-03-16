@@ -1,0 +1,83 @@
+product id="value"
+    productType
+        name
+        spacecraft
+        sensor
+        description
+        level
+    pass id="value"
+        station
+        spacecraft
+        aos
+        los
+        centerLatitude
+        centerLongitude
+        northLatitude
+        southLatitude
+        eastLongitude
+        westLongitude
+    startTime
+    stopTime
+    creation
+    agent
+    centerLatitude
+    centerLongitude
+    northLatitude
+    southLatitude
+    eastLongitude
+    westLongitude
+    subproduct
+    algorithm
+    algorithmVersion
+    resources (list)
+        resource
+            rkey
+            path (file)
+            description
+            directory (is)
+    thumbnails (list)
+        thumbnail
+            path
+            description
+            directory (is)
+    contributors (list)
+        contributor
+            path
+            description
+    ancestors (list)
+        Product id="value"
+            startTime
+            stopTime
+            productType
+                name
+                spacecraft
+                sensor
+                description
+                level
+            ancestors
+                Product
+                    aos
+                    los
+                    productType
+                        name
+                        spacecraft
+                        sensor
+                        description
+                        level
+                    ancestors
+                        Product
+                            aos
+                            los
+                            productType
+                                name
+                                spacecraft
+                                sensor
+                                description
+                                level
+
+
+ProductionDataSets
+    packetCount
+    gapCount
+    missingPacketCount
+

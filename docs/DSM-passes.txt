@@ -1,0 +1,58 @@
+HOW TO PUT PASSES INTO THE DSM
+
+The files you need are in the nisgs account on nisfes. In the dsm directory,
+you should find a zip file containing the javadoc documentation for the dsm
+library. Download it to your computer and unzip it. You will see the docs
+in your browser when you doubleclick on index.html.
+
+You will find jar files in the lib directory. Once you have implemented dsm
+code, you run like this:
+
+java -cp <your-path>:/home/nisgs/lib/dsm.jar:/home/nisgs/lib/mysql-jdbc.jar ...
+
+I usually put the statement into a executable script.
+
+You may have problems compiling unless you include the dsm jar. You can specify
+the classpath on the javac command line.
+javac -classpath <your-path>:/home/nisgs/lib/dsm.jar ...
+
+In your code, import the dsm library.
+import gov.nasa.gsfc.nisgs.dsm.DSM;
+import gov.nasa.gsfc.nisgs.dsm.Pass;
+
+Here's a code fragment that inserts a pass into the dsm:
+
+void createPass(String spacecraft, java.util.Date aos, java.util.Date los)
+        throws Exception
+{
+    DSM dsm = new DSM("nisfes","my_subsystem_name","my_program_name",
+            "nisfs1.sci.gsfc.nasa.gov");
+
+    Pass pass = new Pass("gsfc-drolab",spacecraft,aos,los);
+    //another constructor version:
+    //Pass pass = new Pass("gsfc-drolab",spacecraft,aos,los,
+    //    centerLat,centerLong,northLat,southLat,eastLong,westLong);
+    dsm.createPass(pass);
+    dsm.dispose();
+}
+
+Please see the documentation for DSM and Pass for all method calls.
+
+Constructing a DSM object establishes a tcp/ip connection to the mysql server
+on nisfs and opens a database connection. Because port access is restricted,
+you cannot run dsm programs anywhere but the three computers. The dispose()
+method closes database connections and port connections.
+
+Substitute appropriate names for fields in the DSM constructor. The subsystem
+and program names will be used for debugging. The last argument must be the
+computer where the dsm database resides. The first argument is a name for your
+computer, and I will use it as a database lookup key.
+
+The first argument in the Pass constructor is our station name. If you can think
+of a better name, use it and tell me because it must be the same for all subsequent
+passes. (If we add a second station like b23, it will have a different name.)
+
+The Pass class has methods for adding lats and longs if you don't put them in
+the constructor. This information is not critical at this time.
+
+All dsm methods throw exceptions, so don't forget to catch them.

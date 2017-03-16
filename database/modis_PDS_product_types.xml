@@ -1,0 +1,165 @@
+<NISGS-SPA-INSTALL>
+<OutputTypes>
+<OutputType
+	name="drl.aqua.0141.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 141 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="drl.aqua.0142.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 142 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="drl.aqua.0157.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 157 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="drl.aqua.0158.pds"
+	spacecraft="AQUA"
+	sensor="ceres"
+	description="ceres 158 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/ceres/" />
+<OutputType
+	name="drl.aqua.0259.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 259 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0260.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 260 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0261.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 261 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0262.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 262 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0289.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 289 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0290.pds"
+	spacecraft="AQUA"
+	sensor="amsu"
+	description="amsu 290 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsu/" />
+<OutputType
+	name="drl.aqua.0342.pds"
+	spacecraft="AQUA"
+	sensor="hsb"
+	description="hsb 342 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/hsb/" />
+<OutputType
+	name="drl.aqua.0402.pds"
+	spacecraft="AQUA"
+	sensor="amsr"
+	description="amsr 402 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/amsr/" />
+<OutputType
+	name="drl.aqua.0404.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 404 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0405.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 405 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0406.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 406 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0407.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 407 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0414.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 414 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0415.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 415 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0416.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 416 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.0417.pds"
+	spacecraft="AQUA"
+	sensor="airs"
+	description="airs 417 pds"
+	level="0"
+	is-directory="gsfcdata/aqua/airs/" />
+<OutputType
+	name="drl.aqua.gbad.pds"
+	spacecraft="AQUA"
+	sensor="gbad"
+	description="gbad pds"
+	level="0"
+	is-directory="gsfcdata/aqua/gbad/" />
+<OutputType
+	name="drl.aqua.modis.pds"
+	spacecraft="AQUA"
+	sensor="modis"
+	description="modis pds"
+	level="0"
+	is-directory="gsfcdata/aqua/modis/level0/" />
+<OutputType
+	name="drl.terra.modis.pds"
+	spacecraft="TERRA"
+	sensor="modis"
+	description="modis pds"
+	level="0"
+	is-directory="gsfcdata/terra/modis/level0/" />
+</OutputTypes>
+</NISGS-SPA-INSTALL>

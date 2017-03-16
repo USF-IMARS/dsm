@@ -1,0 +1,46 @@
+<NISGS-SPA-INSTALL>
+<OutputTypes>
+<OutputType
+	name="drl.npp.viirs.rdr"
+	spacecraft="NPP"
+	sensor="VIIRS"
+	description="NPP VIIRS RDR"
+	level="0"
+	is-directory="gsfcdata/npp/viirs/level0" />
+<OutputType
+	name="drl.npp.atms.rdr"
+	spacecraft="NPP"
+	sensor="ATMS"
+	description="NPP ATMS RDR"
+	level="0"
+	is-directory="gsfcdata/npp/atms/level0" />
+<OutputType
+	name="drl.npp.cris.rdr"
+	spacecraft="NPP"
+	sensor="CRIS"
+	description="NPP CRIS RDR"
+	level="0"
+	is-directory="gsfcdata/npp/cris/level0" />	
+<OutputType
+	name="drl.npp.rotcs.rdr"
+	spacecraft="NPP"
+	sensor="OMPS"
+	description="NPP OMPS Total Column RDR"
+	level="0"
+	is-directory="gsfcdata/npp/omps/level0" />	
+<OutputType
+	name="drl.npp.ronps.rdr"
+	spacecraft="NPP"
+	sensor="OMPS"
+	description="NPP OMPS Nadir Profile RDR"
+	level="0"
+	is-directory="gsfcdata/npp/omps/level0" />	
+<OutputType
+	name="drl.npp.rolps.rdr"
+	spacecraft="NPP"
+	sensor="OMPS"
+	description="NPP OMPS Limb Profile RDR"
+	level="0"
+	is-directory="gsfcdata/npp/omps/level0" />	
+</OutputTypes>
+</NISGS-SPA-INSTALL>

@@ -1,0 +1,14 @@
+to do
+
+- The DSM library expects the IS computer to be named "IS", and there is no way to change the name. ProductStore and AncillaryDepot each has a static method to change the name. DSM.jar does not have access to a changed name, so it cannot use the method. Knowing the IS name is important to determine if something is published.
+Update: The importance of this issue may be mitigated now that I have a "published" flag in the database.
+
+- One cannot store ancillaries in the top level IS directory. "null" is not acceptable as a directory in the database.
+
+- I need to check all agents to distinguish between "/" and "\" when doing ftp. Otherwise, NISGS is OS-dependent.
+
+- The properties files need relative directories.
+
+- You need to look at rollback whenever you do a DB update on exception.
+
+- Remove deprecated methods.

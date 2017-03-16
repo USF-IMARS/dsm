@@ -82,11 +82,11 @@ public class CopyMover extends FileMover
 	public void mkdirs(File todirpath) throws Exception {
 		todirpath = makeAbsolute(todirpath, toSite);
 		// If it doesn't already exist, try to create it
-		if(!(todirpath.exists() && todirpath.isDirectory()))
-			if(!todirpath.mkdirs()) {
-			throw new Exception("Failed to create directory "
-						+ todirpath.getPath());
+		if(!(todirpath.exists() && todirpath.isDirectory())) {
+			if (!todirpath.mkdirs()) {
+				throw new Exception("Failed to create directory " + todirpath.getPath());
 			}
+		}
 	}
 
 	public boolean exists(File to) throws Exception {

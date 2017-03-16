@@ -14,6 +14,7 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
+import java.nio.Buffer;
 import java.util.*;
 
 
@@ -116,22 +117,15 @@ public class PdsPassCreate implements MoverPassCreate {
 			return;
 		}
 		for (int i=0;  i < pdsCrecFiles.length; i++) {
-
 			try {
 				Crec crec = readConstructionRecord(pdsCrecFiles[i]);
-
 				crecList.add(crec);
-
 			} catch (Exception e) {
-
 				e.printStackTrace();
-
-
 			}
 		}
 
 		//createFakeCrecEntry();
-
 
 		// sort the crec list by spacecraft name
 		Collections.sort(crecList, new Comparator<Crec> () {
@@ -609,6 +603,7 @@ public class PdsPassCreate implements MoverPassCreate {
 		//block will just abort the current session, and we will try again in the next
 		//cycle.
 		DSMAdministrator dsm;
+		log.report("createPassesForDSM");
 		try {
 			dsm = new DSMAdministrator("PdsPassCreate","PdsPassCreate");
 		} catch (Exception e) {
@@ -813,11 +808,11 @@ public class PdsPassCreate implements MoverPassCreate {
 		Crec crec = new Crec();
 		crec.fileName = fcrec.getName();
 
-		DataInputStream di = null;
-
-		try {
-			di = new DataInputStream(new BufferedInputStream(new FileInputStream(fcrec)));
-
+		try (
+				FileInputStream fis = new FileInputStream(fcrec);
+				BufferedInputStream bis = new BufferedInputStream(fis);
+				DataInputStream di = new DataInputStream(bis)
+			){
 			GregorianCalendar c0 = new GregorianCalendar(1958,Calendar.JANUARY,1);
 			c0.setTimeZone(TimeZone.getTimeZone("GMT+0"));
 
@@ -884,9 +879,6 @@ public class PdsPassCreate implements MoverPassCreate {
 				crec.missingPacketCount += hole;
 				di.skipBytes(32);
 			}
-		}
-		finally {
-			if(di != null) di.close();
 		}
 
 		return crec;

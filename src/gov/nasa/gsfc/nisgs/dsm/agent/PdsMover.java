@@ -17,6 +17,7 @@ import gov.nasa.gsfc.nisgs.properties.Utility;
  */
 public class PdsMover
 {
+	private static final String VERSION = "5.0.1";
 	private static final String MYNAME = "pds-mover";
 	private static final long ONE_SECOND = 1000L;
 	private static int errorLimit = 2;
@@ -112,7 +113,7 @@ public class PdsMover
 			problemFilesDirectory.mkdir();
 		}
 
-		logger.report("PdsMover ready - v5");
+		logger.report("PdsMover ready - v" + VERSION);
 	}
 
 	void run(FilenameFilter pdsFilter) throws Exception
@@ -234,7 +235,6 @@ public class PdsMover
 							new File(remoteDirectory, pds.getRecordFile().getName()));
 
 					dsm.storeProduct(toSite, product);
-					pds.delete();
 				}
 			}
 			catch (Exception pe)
@@ -247,6 +247,10 @@ public class PdsMover
 					logger.report("PdsMover moving files to FAILED");
 					pds.move(problemFilesDirectory);
 				}
+			}
+			finally
+			{
+				pds.delete();
 			}
 		}
 

@@ -121,7 +121,7 @@ public class PdsPassCreate implements MoverPassCreate {
 				Crec crec = readConstructionRecord(pdsCrecFiles[i]);
 				crecList.add(crec);
 			} catch (Exception e) {
-				e.printStackTrace();
+				throw new MoverException(e);
 			}
 		}
 
@@ -700,6 +700,7 @@ public class PdsPassCreate implements MoverPassCreate {
 
 			debugPrint("PdsPassCreate: sendPassesToDSM failed." + ex);
 			ex.printStackTrace();
+			throw new MoverException(ex);
 
 		} finally {
 
@@ -735,6 +736,7 @@ public class PdsPassCreate implements MoverPassCreate {
 
 			debugPrint("PdsPassCreate: sendPassesToDSM failed.");
 			ex.printStackTrace();
+			throw new MoverException(ex);
 
 		} finally {
 

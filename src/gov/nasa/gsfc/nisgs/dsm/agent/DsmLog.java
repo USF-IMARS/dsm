@@ -125,4 +125,8 @@ class DsmLog
 
         log.warning(mysite, LoggableThrowable.create(e));
     }
+
+    void close(){
+        log.close();
+    }
 }

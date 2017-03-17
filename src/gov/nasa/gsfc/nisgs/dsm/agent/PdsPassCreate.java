@@ -116,11 +116,15 @@ public class PdsPassCreate implements MoverPassCreate {
 			debugPrint("Nothing to do...");
 			return;
 		}
+
+		log.report("reading " + Integer.toString(pdsCrecFiles.length) + " pds files...");
 		for (int i=0;  i < pdsCrecFiles.length; i++) {
 			try {
 				Crec crec = readConstructionRecord(pdsCrecFiles[i]);
 				crecList.add(crec);
+				log.report("Construction Record Read.");
 			} catch (Exception e) {
+				log.report("Cannot read construction record for pds.");
 				throw new MoverException(e);
 			}
 		}
@@ -161,8 +165,8 @@ public class PdsPassCreate implements MoverPassCreate {
 				spaceCraftHashList.put(key, spaceCraftList);
 			}
 		}
-		//System.out.print("Spacecraft hash list -- ");
-		//System.out.println(spaceCraftHashList.size());
+		System.out.print("Spacecraft hash list -- ");
+		System.out.println(spaceCraftHashList.size());
 
 		// step at a time - turn the crecs into PassDates
 		passDateHashList = new HashMap<String, LinkedList<PassDate>>();
@@ -935,4 +939,9 @@ public class PdsPassCreate implements MoverPassCreate {
 		}
 	}
 
+	@Override
+	public void finalize() throws Throwable{
+		super.finalize();
+		log.close();
+	}
 }

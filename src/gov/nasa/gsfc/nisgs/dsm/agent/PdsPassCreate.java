@@ -91,15 +91,11 @@ public class PdsPassCreate implements MoverPassCreate {
 	private Log log;
 	private File pdsDirectory;
 
-	public PdsPassCreate(File directory) throws MoverException {
+	public PdsPassCreate(File directory, Log logger) throws MoverException {
 
 		//The log class is my hookup to the NSLS logging system.
 		try {
-			DsmProperties dsmp = new DsmProperties();
-			String logHost = dsmp.getNslsHost();
-			int logPort = dsmp.getNslsPort();
-			String logDir = dsmp.getNslsDirectory();
-			log = new Log(logHost,logPort,logDir);
+			log = logger;
 			log.setDefaultSource(new gov.nasa.gsfc.nisgs.nsls.NSLS.DSM("PdsMover/PdsPassCreate"));
 		} catch (Exception e1) {
 			throw new MoverException(e1);
@@ -933,8 +929,18 @@ public class PdsPassCreate implements MoverPassCreate {
 	public static void main(String[] args) {
 
 		try {
+			DsmProperties dsmp = new DsmProperties();
+			String logHost = dsmp.getNslsHost();
+			int logPort = dsmp.getNslsPort();
+			String logDir = dsmp.getNslsDirectory();
+			Log log = new Log(logHost,logPort,logDir);
+			log.setDefaultSource(new gov.nasa.gsfc.nisgs.nsls.NSLS.DSM("PdsPassCreateMain"));
+			dsmp.dispose();
 
-			@SuppressWarnings("unused") PdsPassCreate passes = new PdsPassCreate(new File(args[0]));
+			@SuppressWarnings("unused") PdsPassCreate passes = new PdsPassCreate(
+					new File(args[0]),
+					log
+			);
 
 
 
@@ -945,9 +951,4 @@ public class PdsPassCreate implements MoverPassCreate {
 		}
 	}
 
-	@Override
-	public void finalize() throws Throwable{
-		super.finalize();
-		log.close();
-	}
 }

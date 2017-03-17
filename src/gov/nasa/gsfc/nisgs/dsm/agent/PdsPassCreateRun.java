@@ -66,7 +66,10 @@ public class PdsPassCreateRun extends Thread {
 					
 					if (passDirName.equals("")) throw (new Exception());
 					
-					PdsPassCreate passes = new PdsPassCreate(new File(passDirName));
+					PdsPassCreate passes = new PdsPassCreate(
+							new File(passDirName),
+							log.log
+					);
 					
 					if (debug)
 						passes.printPasses();

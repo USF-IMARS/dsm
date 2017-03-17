@@ -15,7 +15,7 @@ import java.util.Date;
  */
 class DsmLog
 {
-    private Log log;
+    public Log log;
     private String mysite;
     private boolean verboseLogging;
 

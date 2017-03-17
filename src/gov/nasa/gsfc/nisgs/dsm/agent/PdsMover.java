@@ -130,7 +130,7 @@ public class PdsMover
 			// in the new mover, we try to create passes 
 			// before doing anything... this is done in parts
 			// mainly for debugging purposes...
-			PdsPassCreate createPasses = new PdsPassCreate(incomingDataDirectory);
+			PdsPassCreate createPasses = new PdsPassCreate(incomingDataDirectory, logger.log);
 			// create them but don't actually update them yet...
 			createPasses.createPassesForDSM(60);
 			// delete slivers of 60 seconds or less

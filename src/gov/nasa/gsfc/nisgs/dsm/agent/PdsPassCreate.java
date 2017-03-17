@@ -6,15 +6,16 @@ All rights reserved.
 package gov.nasa.gsfc.nisgs.dsm.agent;
 import gov.nasa.gsfc.nisgs.dsm.DSMAdministrator;
 
+import gov.nasa.gsfc.nisgs.dsm.DsmProperties;
 import gov.nasa.gsfc.nisgs.dsm.ProductType;
 import gov.nasa.gsfc.nisgs.dsm.Pass;
+import gov.nasa.gsfc.nisgs.nsls.Log;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
-import java.nio.Buffer;
 import java.util.*;
 
 
@@ -87,18 +88,23 @@ public class PdsPassCreate implements MoverPassCreate {
 	private List<Pass> prePassList;
 	private List<Pass> theFinalPassList; // really! 
 	private boolean debug = false;
-	private DsmLog log;
+	private Log log;
 	private File pdsDirectory;
 
 	public PdsPassCreate(File directory) throws MoverException {
 
 		//The log class is my hookup to the NSLS logging system.
 		try {
-			log = new DsmLog("PdsMover/PdsPassCreate");
+			DsmProperties dsmp = new DsmProperties();
+			String logHost = dsmp.getNslsHost();
+			int logPort = dsmp.getNslsPort();
+			String logDir = dsmp.getNslsDirectory();
+			log = new Log(logHost,logPort,logDir);
+			log.setDefaultSource(new gov.nasa.gsfc.nisgs.nsls.NSLS.DSM("PdsMover/PdsPassCreate"));
 		} catch (Exception e1) {
 			throw new MoverException(e1);
 		}
-		log.report("PdsPassCreate: processing started.");
+		log.info("PdsPassCreate: processing started.");
 
 		crecList = new LinkedList<Crec>();
 
@@ -117,14 +123,14 @@ public class PdsPassCreate implements MoverPassCreate {
 			return;
 		}
 
-		log.report("reading " + Integer.toString(pdsCrecFiles.length) + " pds files...");
+		log.info("reading " + Integer.toString(pdsCrecFiles.length) + " pds files...");
 		for (int i=0;  i < pdsCrecFiles.length; i++) {
 			try {
 				Crec crec = readConstructionRecord(pdsCrecFiles[i]);
 				crecList.add(crec);
-				log.report("Construction Record Read.");
+				log.info("Construction Record Read.");
 			} catch (Exception e) {
-				log.report("Cannot read construction record for pds.");
+				log.info("Cannot read construction record for pds.");
 				throw new MoverException(e);
 			}
 		}
@@ -215,7 +221,7 @@ public class PdsPassCreate implements MoverPassCreate {
 				// here would be to throw away the files now.  At the
 				// very least we should remove the key from the list.
 				i.remove();
-				log.warn("Missing information for pass of spacecraft "
+				log.warning("Missing information for pass of spacecraft "
 						+ key
 						+ " : pass ignored");
 			}
@@ -417,10 +423,10 @@ public class PdsPassCreate implements MoverPassCreate {
 		File sliverDir = new File(pdsDirectory,"/SLIVERS/");
 		if(!sliverDir.isDirectory()) {
 			if(!sliverDir.mkdirs()) {
-				log.report("PdsPassCreate: trouble creating SLIVERS directory");
+				log.info("PdsPassCreate: trouble creating SLIVERS directory");
 			}
 		}
-		log.report("Sliver dir: " + sliverDir.getAbsolutePath());
+		log.info("Sliver dir: " + sliverDir.getAbsolutePath());
 
 		for (PassTime pt : slivers ) { 
 
@@ -441,23 +447,23 @@ public class PdsPassCreate implements MoverPassCreate {
 					File sliverCRdest = new File(sliverDir, sliverCR.getName());
 					File sliverDatadest = new File(sliverDir, sliverData.getName());
 
-					log.report("SliverCR Dest= " + sliverCRdest.getAbsolutePath());
-					log.report("SliverDatadest Dest= " + sliverCRdest.getAbsolutePath());
+					log.info("SliverCR Dest= " + sliverCRdest.getAbsolutePath());
+					log.info("SliverDatadest Dest= " + sliverCRdest.getAbsolutePath());
 
 					status1 = sliverCR.renameTo(sliverCRdest);
 					status2 = sliverData.renameTo(sliverDatadest);
 
 					if (status1 == false || status2 == false) {
-						log.report("PdsPassCreate: failed to move file(s) to SLIVERS directory.");
+						log.info("PdsPassCreate: failed to move file(s) to SLIVERS directory.");
 					}
 
-					log.report("PdsPassCreate: deleting sliver pass, from -- " + 
+					log.info("PdsPassCreate: deleting sliver pass, from -- " +
 							c.startTime.toString() + " to " +
 							c.stopTime.toString());
 					sliverCR.delete();
 					sliverData.delete();
-					log.report("PdsPassCreate: Sliver CR file deleted -- " + sliverCR.getName());
-					log.report("PdsPassCreate: Sliver Data file deleted -- " + sliverData.getName());
+					log.info("PdsPassCreate: Sliver CR file deleted -- " + sliverCR.getName());
+					log.info("PdsPassCreate: Sliver Data file deleted -- " + sliverData.getName());
 				}
 			}
 		}
@@ -546,8 +552,8 @@ public class PdsPassCreate implements MoverPassCreate {
 				if (originalPassList == null) {
 					throw new Exception();
 				}
-				log.report("PdsPassCreate: replaced original pass list: passes <" + originalPassList.size() + ">");
-				log.report("PdsPassCreate: with new pass list: passes <" + passOkList2.size() + ">");
+				log.info("PdsPassCreate: replaced original pass list: passes <" + originalPassList.size() + ">");
+				log.info("PdsPassCreate: with new pass list: passes <" + passOkList2.size() + ">");
 
 			}
 		}	
@@ -588,7 +594,7 @@ public class PdsPassCreate implements MoverPassCreate {
 			}
 			if (timeDelta < (1000 * seconds)) {  
 
-				log.report("PdsPassCreate: found short PDS, AFTER sliver processing -- " + 
+				log.info("PdsPassCreate: found short PDS, AFTER sliver processing -- " +
 						pdsCrecFiles[i] + " : " +
 						crec.startTime.toString() + " to " +
 						crec.stopTime.toString());
@@ -607,7 +613,7 @@ public class PdsPassCreate implements MoverPassCreate {
 		//block will just abort the current session, and we will try again in the next
 		//cycle.
 		DSMAdministrator dsm;
-		log.report("createPassesForDSM");
+		log.info("createPassesForDSM");
 		try {
 			dsm = new DSMAdministrator("PdsPassCreate","PdsPassCreate");
 		} catch (Exception e) {
@@ -683,7 +689,7 @@ public class PdsPassCreate implements MoverPassCreate {
 
 							theFinalPassList.add(pass);
 						} else {
-							log.report("PdsPassCreate: pass already exists in database: <<"
+							log.info("PdsPassCreate: pass already exists in database: <<"
 									+ 	key
 									+ 	">>"
 									+ 	" AOS: "
@@ -784,7 +790,7 @@ public class PdsPassCreate implements MoverPassCreate {
 			System.out.println(p.getLos().toString());
 
 		}
-		log.report("PdsPassCreate: processing complete.");
+		log.info("PdsPassCreate: processing complete.");
 	}
 	/**
 	 * NOTE: A log message in this method emits a string that the processing
@@ -802,7 +808,7 @@ public class PdsPassCreate implements MoverPassCreate {
 				+ 	p.getAos().toString()
 				+ 	"  LOS: "
 				+ 	p.getLos().toString();
-			log.report(s);
+			log.info(s);
 		}
 	}
 

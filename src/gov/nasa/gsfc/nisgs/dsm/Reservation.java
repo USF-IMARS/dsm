@@ -597,10 +597,13 @@ final public class Reservation
 			Iterator<String> passIT = passList.iterator();
 			Iterator<String> prodIT = prodList.iterator();
 
+			int count = 0;
 			nextset:
 			while(passIT.hasNext() && prodIT.hasNext()) {
+				count++;
 				String thePass = passIT.next();
 				String theProd = prodIT.next();
+				System.out.println("pass:" + thePass + " prod:" + theProd);
 				rset = getOtherProductSet(s, thePass, qproductType, otherType, whereCompare);
 				if(rset == null)
 					return null;
@@ -610,18 +613,23 @@ final public class Reservation
 					continue nextset;
 				// Hose the pids out into a List again
 				ArrayList<String> allpids = new ArrayList<String>();
-				for(int i= 0; i <= otherType.length; i++)
-					allpids.add(rset.getString(i+1));
-				// We only care about the first result set - the vast majority
-				// of the time that's the ONLY one.
-				//if(rset.next()) {
-				//System.err.println("QUERY HAS MORE THAN ONE RESULT: " + rsql);
-				//continue nextset;
-				//}
+				while(rset.next()) {
+					for (int i = 0; i <= otherType.length; i++) {
+						allpids.add(rset.getString(i + 1));
+					}
+					// We only care about the first result set - the vast majority
+					// of the time that's the ONLY one.
+					//if(rset.next()) {
+					//System.err.println("QUERY HAS MORE THAN ONE RESULT: " + rsql);
+					//continue nextset;
+					//}
+				}
 
 				// We stash the first product in the set here, as it's
 				// the one that's going to get Marked
 				String pid = allpids.get(0);
+				System.out.println("pids:" + allpids.toString());
+				System.out.println("pid:" + pid + " c:" + Integer.toString(count));
 
 				// Scan the product set, and screech if any of them
 				// has no accessible DATA resources.  An accessible resource
@@ -651,20 +659,20 @@ final public class Reservation
 				}
 
 				// Everything looks OK, mark the product
-				try {
-					String isql =
+				String isql =
 						"INSERT INTO Markers VALUES ("
 						+ pid + ", " + qgroup + ", 0,"
 						+ Utility.quote(mysite + "-" + mypid) + ")";
+				try {
 					Utility.executeUpdate(s, isql);
 					Utility.commitConnection(connection);
 				}
 				catch (SQLException se) {
 					// This is not really a satisfactory response here,
 					// but what can you do?  We tried to write the database...
-					System.err.println("ERR: could not mark product in DB: " + se.toString());
+					System.err.println("ERR: could not mark product in DB w/ query : \n" + isql + "\n" + se.toString());
 					connection.rollback();
-					continue;
+					continue nextset;
 				}
 
 				// Create the Product objects and drag

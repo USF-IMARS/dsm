@@ -644,8 +644,8 @@ final public class Reservation
 
 					ResultSet scanset = Utility.executeQuery(s, scanquery);
 					if(!scanset.next()) {
-						/* System.err.println("Reservation.reserve: " + productID
-						+ " has no accessible DATA resource?!");*/
+						System.out.println("Reservation.reserve: " + productID
+						+ " has no accessible DATA resource; skipping.");
 						continue nextset;
 					}
 				}
@@ -662,6 +662,7 @@ final public class Reservation
 				catch (SQLException se) {
 					// This is not really a satisfactory response here,
 					// but what can you do?  We tried to write the database...
+					System.err.println("ERR: could not mark product in DB: " + se.toString());
 					connection.rollback();
 					continue;
 				}
@@ -724,277 +725,278 @@ final public class Reservation
      *
      */
 
-    private Product reserve(String qgroup,
-			    String qproductType, String[] otherType,
-			    double granuleDuration,
-			    int prePostCount,
-			    String whereCompare) throws Exception
-    {
-	Product result = null;
-	Statement s = connection.createStatement();
-	try {
-	    /* The first query is of the form:
-	       SELECT DISTINCT pass, id from Products
-	       LEFT JOIN Markers ON Products.id = Markers.product 
-	       AND Markers.gopherColony = "qgroup"
-	       WHERE Markers.gopherColony IS NULL
-	       AND Products.productType = "productType"
-
-	       It generates a list of passes that have products that do not have
-	       the appropriate Markers table entry.  If this comes up empty,
-	       we'll do the next loop zero times and punt immediately (yay!) */
-	    String rsql =
-		"SELECT DISTINCT pass, id from Products"
-		+ " LEFT JOIN Markers ON Products.id = Markers.product"
-		+ "  AND Markers.gopherColony = " + qgroup
-		+ " WHERE Markers.gopherColony IS NULL"
-		+ " AND Products.productType " + whereCompare + " " + qproductType;
-	    //System.err.println("QUERY1: " + rsql);
-	    ResultSet rset = Utility.executeQuery(s, rsql);
-	    // Drain the query into a List of Strings
-	    // (to keep the SQL interface happy so we don't hold the
-	    // connection open while we do other things).
-	    ArrayList<String> passList = new ArrayList<String>();
-	    ArrayList<String> prodList = new ArrayList<String>();
-	    while(rset.next()) {
-		passList.add(rset.getString(1));
-		prodList.add(rset.getString(2));
-	    }
-	    //System.err.println("Result count: " + passList.size());
-	    // Commit now to create a clean rollback point if we need it
-	    Utility.commitConnection(connection);
-
-	    // Loop down the passes (and products in parallel, which means
-	    // we get to use exposed, unadorned iterators... *sigh*...
-	    Iterator<String> passIT = passList.iterator();
-	    Iterator<String> prodIT = prodList.iterator();
-
-	    nextset:
-	    while(passIT.hasNext() && prodIT.hasNext()) {
-		String thePass = passIT.next();
-		String theProd = prodIT.next();
-
-		// Try to grab the entry in the Markers table.
-		// An atomic "grab if it isn't already there" is of the form:
-		//
-		// INSERT INTO Markers(product, gopherColony, status, location)
-		// SELECT 5, "VIIRS-SDR grp1", 0, "thevoid" FROM Mutex
-		// LEFT OUTER JOIN Markers
-		// ON Markers.product=5
-		//    AND Markers.gopherColony="VIIRS-SDR grp1"
-		// WHERE Mutex.i=1 AND Markers.product IS NULL
-		//                 AND Markers.gopherColony IS NULL;
-		//
-		// (This incantation courtesy of:
-		// http://www.xaprb.com/blog/2005/09/25/insert-if-not-exists-queries-in-mysql/)
-		// A successful grab returns 1, a miss returns 0,
-		// which means it's likely another entity already has this
-		// reservation taken, and we can just skip to the next one
-		String gsql = "INSERT INTO Markers (product, gopherColony, status, location)"
-		    + " SELECT " + theProd + ", " + qgroup + ", 0, " + Utility.quote(mysite + "-" + mypid) + " FROM Mutex"
-		    + " LEFT OUTER JOIN Markers"
-		    + " ON Markers.product=" + theProd
-		    + " AND Markers.gopherColony=" + qgroup
-		    + " WHERE Mutex.i=1 AND Markers.product IS NULL AND Markers.gopherColony IS NULL";
-
-
+	private Product reserve(
+			String qgroup,
+			String qproductType, String[] otherType,
+			double granuleDuration,
+			int prePostCount,
+			String whereCompare) throws Exception
+	{
+		Product result = null;
+		Statement s = connection.createStatement();
 		try {
-		    //System.err.println("Grabbing marker with " + gsql);
-		    int gresult = Utility.executeUpdate(s, gsql);
-		    if(gresult == 0)
-			// Someone else has it; let them do it
-			continue nextset;
-		    if(gresult != 1) {
-			// Holy @%*% - we may have destroyed the Markers
-			// table - roll back and continue
-			System.err.println("Attempt to grab reservation ("
-					   + theProd + ", " + qgroup
-					   + ") failed with an update result of "
-					   + gresult);
-			System.err.println("Rolling back and skipping!");
-			connection.rollback();
-			continue nextset;
-		    }
-		    //System.err.println("Got it");
-		    // The current entry is grabbed.  If we discover that it
-		    // isn't ready after all, we must delete it and continue
-		    // to the next one.  It appears to be sufficient to
-		    // rollback() and continue, as rollback() aborts the
-		    // current transaction and implicitly starts another one.
+			/* The first query is of the form:
+				SELECT DISTINCT pass, id from Products
+				LEFT JOIN Markers ON Products.id = Markers.product
+				AND Markers.gopherColony = "qgroup"
+				WHERE Markers.gopherColony IS NULL
+				AND Products.productType = "productType"
 
-		    // Storage for all product IDs we're going to check
-		    ArrayList<String> allpids = new ArrayList<String>();
-
-		    // First check for the other products in the primary
-		    rset = getOtherProductSet(s, thePass, qproductType, otherType, whereCompare);
-		    if(rset == null) {
-			// This only happens with a pretty strange database error.
-			// Try to rollback and give up
-			connection.rollback();
-			return null;
-		    }
-
-		    // If this result set is empty, skip to the next pass at once
-		    if(!rset.next()) {
-			//System.err.println("Other products missing");
-			connection.rollback();
-			continue nextset;
-		    }
-
-		    // Otherwise, hose the product IDs into allpids
-		    for(int i= 0; i <= otherType.length; i++)
-			allpids.add(rset.getString(i+1));
-
-		    // Then check for other products in the prev and next
-		    for(int neighbor = 0; neighbor < prePostCount; neighbor++) {
-			// The time offset we need is
-			// (neighbor + 0.5) * granuleDuration,
-			// and we need to format it as
-			// seconds.microseconds
-			// because date math in MySQl is funky...
-			String timeOffset = String.format("%.06f", granuleDuration * (neighbor + 0.5));
-			// First get the ids for the previous and next products
-			// (skip if they don't exist)
-			// Query is of the form:
-			// SELECT prevprod.id, pp.id, nextprod.id 
-			// FROM Products as prevprod, Products as nextprod, Products as pp 
-			// WHERE pp.id="theProd"
-			// AND pp.productType = prevprod.productType 
-			// AND pp.productType = nextprod.productType 
-			// AND prevprod.startTime < DATE_SUB(pp.startTime, INTERVAL 5.000000 SECOND_MICROSECOND) 
-			// AND prevprod.stopTime > DATE_SUB(pp.startTime, INTERVAL 5.000000 SECOND_MICROSECOND) 
-			// AND nextprod.startTime < DATE_ADD(pp.stopTime, INTERVAL 5.000000 SECOND_MICROSECOND) 
-			// AND nextprod.stopTime > DATE_ADD(pp.stopTime, INTERVAL 5.000000 SECOND_MICROSECOND);
-			//
-			String psql =
-			    "SELECT prevprod.id, pp.id, nextprod.id, prevprod.pass, nextprod.pass"
-			    + " FROM Products as prevprod, Products as nextprod, Products as pp"
-			    + " WHERE pp.id = " + theProd
-			    + " AND pp.productType = prevprod.productType"
-			    + " AND pp.productType = nextprod.productType"
-			    + " AND prevprod.startTime < DATE_SUB(pp.startTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
-			    + " AND  prevprod.stopTime > DATE_SUB(pp.startTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
-			    + " AND  nextprod.startTime < DATE_ADD(pp.stopTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
-			    + " AND  nextprod.stopTime > DATE_ADD(pp.stopTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)";
-			rset =  Utility.executeQuery(s, psql);
-			if(!rset.next()) {
-			    //System.err.println("Prev/next products missing");
-			    connection.rollback();
-			    continue nextset;
+				It generates a list of passes that have products that do not have
+				the appropriate Markers table entry.  If this comes up empty,
+				we'll do the next loop zero times and punt immediately (yay!) */
+			String rsql =
+				"SELECT DISTINCT pass, id from Products"
+				+ " LEFT JOIN Markers ON Products.id = Markers.product"
+				+ "  AND Markers.gopherColony = " + qgroup
+				+ " WHERE Markers.gopherColony IS NULL"
+				+ " AND Products.productType " + whereCompare + " " + qproductType;
+			//System.err.println("QUERY1: " + rsql);
+			ResultSet rset = Utility.executeQuery(s, rsql);
+			// Drain the query into a List of Strings
+			// (to keep the SQL interface happy so we don't hold the
+			// connection open while we do other things).
+			ArrayList<String> passList = new ArrayList<String>();
+			ArrayList<String> prodList = new ArrayList<String>();
+			while(rset.next()) {
+				passList.add(rset.getString(1));
+				prodList.add(rset.getString(2));
 			}
+			//System.err.println("Result count: " + passList.size());
+			// Commit now to create a clean rollback point if we need it
+			Utility.commitConnection(connection);
 
-			String thePrevprod = rset.getString(1);
-			String theNextprod = rset.getString(3);
-			String thePrevpass = rset.getString(4);
-			String theNextpass = rset.getString(5);
+			// Loop down the passes (and products in parallel, which means
+			// we get to use exposed, unadorned iterators... *sigh*...
+			Iterator<String> passIT = passList.iterator();
+			Iterator<String> prodIT = prodList.iterator();
 
-			// Then check for the previous/current/next product sets
+			nextset:
+			while(passIT.hasNext() && prodIT.hasNext()) {
+				String thePass = passIT.next();
+				String theProd = prodIT.next();
 
-			// First the next one
-			rset = getOtherProductSet(s, theNextpass, qproductType, otherType, whereCompare);
-			if(rset == null)
-			    return null;
+				// Try to grab the entry in the Markers table.
+				// An atomic "grab if it isn't already there" is of the form:
+				//
+				// INSERT INTO Markers(product, gopherColony, status, location)
+				// SELECT 5, "VIIRS-SDR grp1", 0, "thevoid" FROM Mutex
+				// LEFT OUTER JOIN Markers
+				// ON Markers.product=5
+				//    AND Markers.gopherColony="VIIRS-SDR grp1"
+				// WHERE Mutex.i=1 AND Markers.product IS NULL
+				//                 AND Markers.gopherColony IS NULL;
+				//
+				// (This incantation courtesy of:
+				// http://www.xaprb.com/blog/2005/09/25/insert-if-not-exists-queries-in-mysql/)
+				// A successful grab returns 1, a miss returns 0,
+				// which means it's likely another entity already has this
+				// reservation taken, and we can just skip to the next one
+				String gsql = "INSERT INTO Markers (product, gopherColony, status, location)"
+					+ " SELECT " + theProd + ", " + qgroup + ", 0, " + Utility.quote(mysite + "-" + mypid) + " FROM Mutex"
+					+ " LEFT OUTER JOIN Markers"
+					+ " ON Markers.product=" + theProd
+					+ " AND Markers.gopherColony=" + qgroup
+					+ " WHERE Mutex.i=1 AND Markers.product IS NULL AND Markers.gopherColony IS NULL";
 
-			// If this result set is empty, skip to the next pass at once
-			if(!rset.next()) {
-			    //System.err.println("Next products missing");			   
-			    connection.rollback();
-			    continue nextset;
+
+				try {
+					//System.err.println("Grabbing marker with " + gsql);
+					int gresult = Utility.executeUpdate(s, gsql);
+					if(gresult == 0)
+						// Someone else has it; let them do it
+						continue nextset;
+					if(gresult != 1) {
+						// Holy @%*% - we may have destroyed the Markers
+						// table - roll back and continue
+						System.err.println("Attempt to grab reservation ("
+							+ theProd + ", " + qgroup
+							+ ") failed with an update result of "
+							+ gresult);
+						System.err.println("Rolling back and skipping!");
+						connection.rollback();
+						continue nextset;
+					}
+					//System.err.println("Got it");
+					// The current entry is grabbed.  If we discover that it
+					// isn't ready after all, we must delete it and continue
+					// to the next one.  It appears to be sufficient to
+					// rollback() and continue, as rollback() aborts the
+					// current transaction and implicitly starts another one.
+
+					// Storage for all product IDs we're going to check
+					ArrayList<String> allpids = new ArrayList<String>();
+
+					// First check for the other products in the primary
+					rset = getOtherProductSet(s, thePass, qproductType, otherType, whereCompare);
+					if(rset == null) {
+						// This only happens with a pretty strange database error.
+						// Try to rollback and give up
+						connection.rollback();
+						return null;
+					}
+
+					// If this result set is empty, skip to the next pass at once
+					if(!rset.next()) {
+						//System.err.println("Other products missing");
+						connection.rollback();
+						continue nextset;
+					}
+
+					// Otherwise, hose the product IDs into allpids
+					for(int i= 0; i <= otherType.length; i++)
+						allpids.add(rset.getString(i+1));
+
+					// Then check for other products in the prev and next
+					for(int neighbor = 0; neighbor < prePostCount; neighbor++) {
+						// The time offset we need is
+						// (neighbor + 0.5) * granuleDuration,
+						// and we need to format it as
+						// seconds.microseconds
+						// because date math in MySQl is funky...
+						String timeOffset = String.format("%.06f", granuleDuration * (neighbor + 0.5));
+						// First get the ids for the previous and next products
+						// (skip if they don't exist)
+						// Query is of the form:
+						// SELECT prevprod.id, pp.id, nextprod.id
+						// FROM Products as prevprod, Products as nextprod, Products as pp
+						// WHERE pp.id="theProd"
+						// AND pp.productType = prevprod.productType
+						// AND pp.productType = nextprod.productType
+						// AND prevprod.startTime < DATE_SUB(pp.startTime, INTERVAL 5.000000 SECOND_MICROSECOND)
+						// AND prevprod.stopTime > DATE_SUB(pp.startTime, INTERVAL 5.000000 SECOND_MICROSECOND)
+						// AND nextprod.startTime < DATE_ADD(pp.stopTime, INTERVAL 5.000000 SECOND_MICROSECOND)
+						// AND nextprod.stopTime > DATE_ADD(pp.stopTime, INTERVAL 5.000000 SECOND_MICROSECOND);
+						//
+						String psql =
+							"SELECT prevprod.id, pp.id, nextprod.id, prevprod.pass, nextprod.pass"
+							+ " FROM Products as prevprod, Products as nextprod, Products as pp"
+							+ " WHERE pp.id = " + theProd
+							+ " AND pp.productType = prevprod.productType"
+							+ " AND pp.productType = nextprod.productType"
+							+ " AND prevprod.startTime < DATE_SUB(pp.startTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
+							+ " AND  prevprod.stopTime > DATE_SUB(pp.startTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
+							+ " AND  nextprod.startTime < DATE_ADD(pp.stopTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)"
+							+ " AND  nextprod.stopTime > DATE_ADD(pp.stopTime, INTERVAL " + timeOffset + " SECOND_MICROSECOND)";
+						rset =  Utility.executeQuery(s, psql);
+						if(!rset.next()) {
+							//System.err.println("Prev/next products missing");
+							connection.rollback();
+							continue nextset;
+						}
+
+						String thePrevprod = rset.getString(1);
+						String theNextprod = rset.getString(3);
+						String thePrevpass = rset.getString(4);
+						String theNextpass = rset.getString(5);
+
+						// Then check for the previous/current/next product sets
+
+						// First the next one
+						rset = getOtherProductSet(s, theNextpass, qproductType, otherType, whereCompare);
+						if(rset == null)
+							return null;
+
+						// If this result set is empty, skip to the next pass at once
+						if(!rset.next()) {
+							//System.err.println("Next products missing");
+							connection.rollback();
+							continue nextset;
+						}
+						// Hose the pids out into a List again
+						for(int i= 0; i <= otherType.length; i++)
+							allpids.add(rset.getString(i+1));
+
+						// Then the previous one
+						rset = getOtherProductSet(s, thePrevpass, qproductType, otherType, whereCompare);
+						if(rset == null) {
+							// This only happens with a pretty strange database error.
+							// Try to rollback and give up
+							connection.rollback();
+							return null;
+						}
+
+						// If this result set is empty, skip to the next pass at once
+						if(!rset.next()) {
+							//System.err.println("Prev products missing");
+							connection.rollback();
+							continue nextset;
+						}
+						// Hose the pids out into a List again
+						for(int i= 0; i <= otherType.length; i++)
+							allpids.add(rset.getString(i+1));
+
+					}
+					// Scan all the products, and screech if any of them
+					// has no accessible DATA resources.  An accessible resource
+					// is either marked as published, or on our site.
+					// Most of the time these "failures" are transient - a product
+					// has been created, but not published yet, so we just
+					// quietly skip them
+
+					for(String productID : allpids ) {
+						String scanquery =
+							"SELECT Resources.id FROM Resources "
+							+ " LEFT JOIN ResourceSites"
+							+ " ON Resources.id = ResourceSites.resource"
+							+ " WHERE Resources.product="+ productID
+							+ " AND Resources.rkey='DATA'"
+							+ " AND (Resources.published <> 0"
+							+ " OR ResourceSites.site=" + Utility.quote(mysite)
+							+ ")";
+						;
+
+						ResultSet scanset = Utility.executeQuery(s, scanquery);
+						if(!scanset.next()) {
+							System.err.println("Reservation.reserve: " + productID
+								+ " has no accessible DATA resource?!");
+							connection.rollback();
+							continue nextset;
+						}
+					}
+
+
+					// Create the Product objects and drag
+					// their resources to the local machine
+
+					try {
+						ResultSet r = Utility.executeQuery(s, "SELECT Products.* from Products where Products.id=" + theProd);
+						r.next();
+						result = ProductFactory.makeProduct(connection,mysite,r);
+						if (!result.resourcesAreLocal()) {
+							Product xproduct = copyProduct(theProd);
+							if (xproduct == null) {
+								//probably files are gone.
+								releaseProduct(qgroup, theProd, 2);
+								continue;
+							}
+							result = xproduct;
+						}
+					}
+					catch (SQLException se) {
+						releaseProduct(qgroup, theProd, 2);
+					}
+					// If we get here, the current productID and all its friends
+					// have DATA resources, it has been put into the Markers table,
+					// and it has been made a local resource, so we should
+					// exit the loop and return it now
+					Utility.commitConnection(connection);
+					return result;
+				}
+				catch (Exception e) {
+					// We get here if some error happened while validating
+					// the current entry.  We should mark this entry as failed
+					// (and go on to the next one?)
+					System.err.println("ERROR while trying to reserve with " + gsql);
+					e.printStackTrace();
+					releaseProduct(qgroup, theProd, 2);
+					continue nextset;
+				}
 			}
-			// Hose the pids out into a List again
-			for(int i= 0; i <= otherType.length; i++)
-			    allpids.add(rset.getString(i+1));
-
-			// Then the previous one
-			rset = getOtherProductSet(s, thePrevpass, qproductType, otherType, whereCompare);
-			if(rset == null) {
-			    // This only happens with a pretty strange database error.
-			    // Try to rollback and give up
-			    connection.rollback();
-			    return null;
-			}
-
-			// If this result set is empty, skip to the next pass at once
-			if(!rset.next()) {
-			    //System.err.println("Prev products missing");			   
-			    connection.rollback();
-			    continue nextset;
-			}
-			// Hose the pids out into a List again
-			for(int i= 0; i <= otherType.length; i++)
-			    allpids.add(rset.getString(i+1));
-
-		    }
-		    // Scan all the products, and screech if any of them
-		    // has no accessible DATA resources.  An accessible resource
-		    // is either marked as published, or on our site.
-		    // Most of the time these "failures" are transient - a product
-		    // has been created, but not published yet, so we just
-		    // quietly skip them
-		    
-		    for(String productID : allpids ) {
-			String scanquery =
-			    "SELECT Resources.id FROM Resources "
-			    + " LEFT JOIN ResourceSites"
-			    + " ON Resources.id = ResourceSites.resource"
-			    + " WHERE Resources.product="+ productID
-			    + " AND Resources.rkey='DATA'"
-			    + " AND (Resources.published <> 0"
-			    + " OR ResourceSites.site=" + Utility.quote(mysite)
-			    + ")";
-			;
-
-			ResultSet scanset = Utility.executeQuery(s, scanquery);
-			if(!scanset.next()) {
-			    System.err.println("Reservation.reserve: " + productID
-			       + " has no accessible DATA resource?!");
-			    connection.rollback();
-			    continue nextset;
-			}
-		    }
-
-
-		    // Create the Product objects and drag
-		    // their resources to the local machine
-
-		    try {
-			ResultSet r = Utility.executeQuery(s, "SELECT Products.* from Products where Products.id=" + theProd);
-			r.next();
-			result = ProductFactory.makeProduct(connection,mysite,r);
-			if (!result.resourcesAreLocal()) {
-			    Product xproduct = copyProduct(theProd);
-			    if (xproduct == null) {
-				//probably files are gone.
-				releaseProduct(qgroup, theProd, 2);
-				continue;
-			    }
-			    result = xproduct;
-			}
-		    }
-		    catch (SQLException se) {
-			releaseProduct(qgroup, theProd, 2);
-		    }
-		    // If we get here, the current productID and all its friends
-		    // have DATA resources, it has been put into the Markers table,
-		    // and it has been made a local resource, so we should
-		    // exit the loop and return it now
-		    Utility.commitConnection(connection);
-		    return result;
 		}
-		catch (Exception e) {
-		    // We get here if some error happened while validating
-		    // the current entry.  We should mark this entry as failed
-		    // (and go on to the next one?)
-		    System.err.println("ERROR while trying to reserve with " + gsql);
-		    e.printStackTrace();
-		    releaseProduct(qgroup, theProd, 2);
-		    continue nextset;
+		finally {
+			s.close();
 		}
-	    }
+		return result;
 	}
-	finally {
-	    s.close();
-	}
-	return result;
-    }
 }

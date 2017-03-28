@@ -141,32 +141,36 @@ final public class Reservation
      * @param timeSleep The time in seconds between polls. It must be > 0.
      * @return A product
      */
-    Product reserveProductLikeProductType(String mygroup,
-					  String productTypeMask,
-					  String otherTypes,
-            int timeSleep) throws Exception
-    {
-	final String qgroup = Utility.quote(mygroup);
-	final String whereCompare = "LIKE";
-	final String qproductTypeMask = Utility.quote(productTypeMask);
-	final String qotherType[] =  splitquote(otherTypes.replaceAll("\\{[^}]*}","%"));
+	Product reserveProductLikeProductType(
+		String mygroup,
+		String productTypeMask,
+		String otherTypes,
+		int timeSleep
+	) throws Exception {
+		final String qgroup = Utility.quote(mygroup);
+		final String whereCompare = "LIKE";
+		final String qproductTypeMask = Utility.quote(productTypeMask);
+		final String qotherType[] =  splitquote(otherTypes.replaceAll("\\{[^}]*}","%"));
 
-	// Before we start polling, do a sanity check on the types
-	checkTypes(connection, qproductTypeMask, qotherType, whereCompare);
+		// Before we start polling, do a sanity check on the types
+		checkTypes(connection, qproductTypeMask, qotherType, whereCompare);
 
-	// Go off and poll
-	return poll(
-		    new Pollable() {
-			public Product pollForProduct() throws Exception
-			{
-			    return reserve(qgroup,
-					   qproductTypeMask,
-					   qotherType,
-					   whereCompare);
-			}
-		    },
-		    (long)timeSleep);
-    }
+		// Go off and poll
+		return poll(
+			new Pollable() {
+				public Product pollForProduct() throws Exception
+				{
+					return reserve(
+						qgroup,
+						qproductTypeMask,
+						qotherType,
+						whereCompare
+					);
+				}
+			},
+			(long)timeSleep
+		);
+	}
 
 
     /**
@@ -227,36 +231,40 @@ final public class Reservation
      * @param timeSleep The time in seconds between polls. It must be > 0.
      * @return A product
      */
-    Product reserveProductLikeProductType(String mygroup,
-					  String productTypeMask,
-					  String otherTypes,
-					  final double granuleDuration,
-					  final int prePostCount,
-            int timeSleep) throws Exception
-    {
-	final String qgroup = Utility.quote(mygroup);
-	final String whereCompare = "LIKE";
-	final String qproductTypeMask = Utility.quote(productTypeMask);
-	final String qotherType[] =  splitquote(otherTypes.replaceAll("\\{[^}]*}","%"));
+	Product reserveProductLikeProductType(
+		String mygroup,
+		String productTypeMask,
+		String otherTypes,
+		final double granuleDuration,
+		final int prePostCount,
+		int timeSleep
+	) throws Exception {
+		final String qgroup = Utility.quote(mygroup);
+		final String whereCompare = "LIKE";
+		final String qproductTypeMask = Utility.quote(productTypeMask);
+		final String qotherType[] =  splitquote(otherTypes.replaceAll("\\{[^}]*}","%"));
 
-	// Before we start polling, do a sanity check on the types
-	checkTypes(connection, qproductTypeMask, qotherType, whereCompare);
+		// Before we start polling, do a sanity check on the types
+		checkTypes(connection, qproductTypeMask, qotherType, whereCompare);
 
-	// Go off and poll
-	return poll(
-		    new Pollable() {
-			public Product pollForProduct() throws Exception
-			{
-			    return reserve(qgroup,
-					   qproductTypeMask,
-					   qotherType,
-					   granuleDuration,
-					   prePostCount,
-					   whereCompare);
-			}
-		    },
-		    (long)timeSleep);
-    }
+		// Go off and poll
+		return poll(
+			new Pollable() {
+				public Product pollForProduct() throws Exception
+				{
+					return reserve(
+						qgroup,
+						qproductTypeMask,
+						qotherType,
+						granuleDuration,
+						prePostCount,
+						whereCompare
+					);
+				}
+			},
+			(long)timeSleep
+		);
+	}
 
     /**
      * Get a product by its product ID.
@@ -548,16 +556,16 @@ final public class Reservation
 	) throws Exception {
 		Product result = null;
 		Statement s = connection.createStatement();
-	/* The first query is of the form:
-		SELECT DISTINCT pass, id from Products
-		LEFT JOIN Markers ON Products.id = Markers.product
-		AND Markers.gopherColony = "qgroup"
-		WHERE Markers.gopherColony IS NULL
-		AND Products.productType = "productType"
+		/* The first query is of the form:
+			SELECT DISTINCT pass, id from Products
+			LEFT JOIN Markers ON Products.id = Markers.product
+			AND Markers.gopherColony = "qgroup"
+			WHERE Markers.gopherColony IS NULL
+			AND Products.productType = "productType"
 
-		It generates a list of passes that have products that do not have
-		the appropriate Markers table entry.  If this comes up empty, we'll
-		do the next loop zero times and punt immediately (yay!) */
+			It generates a list of passes that have products that do not have
+			the appropriate Markers table entry.  If this comes up empty, we'll
+			do the next loop zero times and punt immediately (yay!) */
 		String rsql =
 			"SELECT DISTINCT pass, id from Products"
 			+ " LEFT JOIN Markers ON Products.id = Markers.product"

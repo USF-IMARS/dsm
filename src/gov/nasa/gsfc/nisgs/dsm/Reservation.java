@@ -538,109 +538,12 @@ final public class Reservation
         return product;
     }
 
-    /** Does the dirty work of reserving a product as follows:
-     *
-     * Does a join query against the Products and Markers tables
-     * to create a candidate list of products that need processing
-     *
-     * Loops down the candidate list and:
-     *
-     * * Inserts a grabbed record in the Markers table
-     *    (failure means skip me)
-     *
-     * * Creates a Product object for the grabbed product
-     *    (failure means mark as failed in Markers and skip
-     *
-     * * Forces Product resources to be local
-     *    (failure means mark as failed in Markers and skip)
-     *
-     */
 
-	private Product reserve(
-		String qgroup,
-		String qproductType,
-		String[] otherType,
-		String whereCompare
-	) throws Exception {
-		Product result = null;
-		Statement s = connection.createStatement();
-		/* The first query is of the form:
-			SELECT DISTINCT pass, id from Products
-			LEFT JOIN Markers ON Products.id = Markers.product
-			AND Markers.gopherColony = "qgroup"
-			WHERE Markers.gopherColony IS NULL
-			AND Products.productType = "productType"
-
-			It generates a list of passes that have products that do not have
-			the appropriate Markers table entry.  If this comes up empty, we'll
-			do the next loop zero times and punt immediately (yay!) */
-		String rsql =
-			"SELECT DISTINCT pass, id from Products"
-			+ " LEFT JOIN Markers ON Products.id = Markers.product"
-			+ "  AND Markers.gopherColony = " + qgroup
-			+ " WHERE Markers.gopherColony IS NULL"
-			+ " AND Products.productType " + whereCompare + " " + qproductType;
-		try {
-			ResultSet rset = Utility.executeQuery(s, rsql);
-			// Drain the query into a List of Strings
-			// (to keep the SQL interface happy so we don't hold the
-			// connection open while we do other things).
-			ArrayList<String> passList = new ArrayList<String>();
-			ArrayList<String> prodList = new ArrayList<String>();
-			while(rset.next()) {
-				passList.add(rset.getString(1));
-				prodList.add(rset.getString(2));
-			}
-			Utility.commitConnection(connection);
-			// Loop down the passes (and products in parallel, which means
-			// we get to use exposed, unadorned iterators... *sigh*...
-			Iterator<String> passIT = passList.iterator();
-			Iterator<String> prodIT = prodList.iterator();
-
-			int count = 0;
-			nextset:
-			while(passIT.hasNext() && prodIT.hasNext()) {
-				count++;
-				String thePass = passIT.next();
-				String theProd = prodIT.next();
-				System.out.println("pass:" + thePass + " prod:" + theProd);
-				rset = getOtherProductSet(s, thePass, qproductType, otherType, whereCompare);
-				if(rset == null)
-					return null;
-
-				// If this result set is empty, skip to the next pass at once
-				if(!rset.next())
-					continue nextset;
-				// Hose the pids out into a List again
-				ArrayList<String> allpids = new ArrayList<String>();
-				while(rset.next()) {
-					for (int i = 0; i <= otherType.length; i++) {
-						allpids.add(rset.getString(i + 1));
-					}
-					// We only care about the first result set - the vast majority
-					// of the time that's the ONLY one.
-					//if(rset.next()) {
-					//System.err.println("QUERY HAS MORE THAN ONE RESULT: " + rsql);
-					//continue nextset;
-					//}
-				}
-
-				// We stash the first product in the set here, as it's
-				// the one that's going to get Marked
-				String pid = allpids.get(0);
-				System.out.println("pids:" + allpids.toString());
-				System.out.println("pid:" + pid + " c:" + Integer.toString(count));
-
-				// Scan the product set, and screech if any of them
-				// has no accessible DATA resources.  An accessible resource
-				// is either marked as published, or on our site.
-				// Most of the time these "failures" are transient - a product
-				// has been created, but not published yet, so we just
-				// quietly skip them
-
-				for(String productID : allpids ) {
-					String scanquery =
-						"SELECT Resources.id FROM Resources "
+	/** returns true if given product has resources
+	 */
+	private boolean hasResources(String productID, Statement statement) throws SQLException{
+		String scanquery =
+				"SELECT Resources.id FROM Resources "
 						+ " LEFT JOIN ResourceSites"
 						+ " ON Resources.id = ResourceSites.resource"
 						+ " WHERE Resources.product="+ productID
@@ -648,66 +551,105 @@ final public class Reservation
 						+ " AND (Resources.published <> 0"
 						+ " OR ResourceSites.site=" + Utility.quote(mysite)
 						+ ")";
-					;
+		;
 
-					ResultSet scanset = Utility.executeQuery(s, scanquery);
-					if(!scanset.next()) {
-						System.out.println("Reservation.reserve: " + productID
-						+ " has no accessible DATA resource; skipping.");
-						continue nextset;
-					}
-				}
-
-				// Everything looks OK, mark the product
-				String isql =
-						"INSERT INTO Markers VALUES ("
-						+ pid + ", " + qgroup + ", 0,"
-						+ Utility.quote(mysite + "-" + mypid) + ")";
-				try {
-					Utility.executeUpdate(s, isql);
-					Utility.commitConnection(connection);
-				}
-				catch (SQLException se) {
-					// This is not really a satisfactory response here,
-					// but what can you do?  We tried to write the database...
-					System.err.println("ERR: could not mark product in DB w/ query : \n" + isql + "\n" + se.toString());
-					connection.rollback();
-					continue nextset;
-				}
-
-				// Create the Product objects and drag
-				// their resources to the local machine
-
-				try {
-					ResultSet r = Utility.executeQuery(s, "SELECT Products.* from Products where Products.id=" + pid);
-					r.next();
-					result = ProductFactory.makeProduct(connection,mysite,r);
-					if (!result.resourcesAreLocal()) {
-						Product xproduct = copyProduct(pid);
-						if (xproduct == null) {
-							//probably files are gone.
-							releaseProduct(qgroup, pid, 2);
-							continue;
-						}
-						result = xproduct;
-					}
-				}
-				catch (SQLException se) {
-					releaseProduct(qgroup, pid, 2);
-				}
-				// If we get here, the current productID and all its friends
-				// have DATA resources, it has been put into the Markers table,
-				// and it has been made a local resource, so we should
-				// exit the loop and return it now
-				return result;
-			}
+		ResultSet scanset = Utility.executeQuery(statement, scanquery);
+		if(!scanset.next()) {
+			return false;
+//			System.out.println("Reservation.reserve: " + productID
+//					+ " has no accessible DATA resource; skipping.");
+		} else {
+			return true;
 		}
-		finally {
-			s.close();
-		}
-		return result;
 	}
 
+	/** actually does the product reserving
+	 */
+	private boolean markProduct(String pid, String qgroup, Statement s) throws SQLException{
+		// Everything looks OK, mark the product
+		String isql =
+				"INSERT INTO Markers VALUES ("
+						+ pid + ", " + qgroup + ", 0,"
+						+ Utility.quote(mysite + "-" + mypid) + ")";
+		try {
+			Utility.executeUpdate(s, isql);
+			Utility.commitConnection(connection);
+		}
+		catch (SQLException se) {
+			// This is not really a satisfactory response here,
+			// but what can you do?  We tried to write the database...
+			System.err.println("ERR: could not mark product in DB w/ query : \n" + isql + "\n" + se.toString());
+			connection.rollback();
+			return false;
+		}
+		return true;
+	}
+
+	/** Reserves the first product from the Products table that matches the given queryProductType and has not been
+	 * marked as processed by the given group.
+	 */
+	private Product reserve(
+			String queryGroup,
+			String queryProductType,
+			String[] otherTypes,
+			String whereCompare
+	) throws Exception{
+		Statement statement = connection.createStatement();
+		// select products which have not been marked processed by my group matching queryProductType or otherTypes
+		ArrayList<String> typesToReserve = new ArrayList<>();
+		typesToReserve.add(queryProductType);
+		typesToReserve.addAll(Arrays.asList(otherTypes));
+
+		try {
+			for (String reserveType : typesToReserve) {
+				// NOTE: is pass needed in the query below? Only if ids are not unique across multiple passes.
+				String sqlQuery = "SELECT DISTINCT id, pass FROM Products WHERE Products.productType LIKE " + reserveType + " AND Products.id NOT IN ( " +
+						" SELECT product from Markers WHERE Markers.gopherColony = " + queryGroup + ")";
+				System.out.println(sqlQuery);
+				ResultSet queryResult = Utility.executeQuery(statement, sqlQuery);
+				// copy over result now so the query doesn't close before we're done.
+				ArrayList<String> passIDs = new ArrayList<>();
+				while (queryResult.next()) {  // TODO: should this be do-while or does the iterator need to be primed?
+					passIDs.add(queryResult.getString(1));  // index starts @ 1
+				}
+				// handle the results:
+				for (String passID : passIDs){
+					System.out.print('\n'+passID);
+					if (hasResources(passID, statement)) {
+						System.out.print(" hasRes");
+						if (markProduct(passID, queryGroup, statement)) {
+							System.out.print(" marked");
+							// Create the Product objects and drag
+							// their resources to the local machine
+							try {
+								ResultSet r = Utility.executeQuery(statement, "SELECT Products.* from Products where Products.id=" + passID);
+								r.next();
+								Product result = ProductFactory.makeProduct(connection, mysite, r);
+								System.out.print(" made");
+								if (!result.resourcesAreLocal()) {
+									Product xproduct = copyProduct(passID);
+									System.out.print(" copied");
+									if (xproduct == null) {
+										//probably files are gone.
+										releaseProduct(queryGroup, passID, 2);
+										continue;
+									} else {
+										System.out.print(" returned");
+										return xproduct;
+									}
+								}
+							} catch (SQLException se) {
+								releaseProduct(queryGroup, passID, 2);
+							}
+						}
+					}
+				}
+			}
+		} finally {
+			statement.close();
+		}
+		return null;
+	}
 
     /** Does the dirty work of reserving a product as follows:
      *

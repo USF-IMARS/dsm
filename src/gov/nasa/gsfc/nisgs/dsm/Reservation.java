@@ -147,6 +147,7 @@ final public class Reservation
 		String otherTypes,
 		int timeSleep
 	) throws Exception {
+//		System.out.println("reserveProductLikeProductType(" + mygroup+","+productTypeMask+","+otherTypes+")");
 		final String qgroup = Utility.quote(mygroup);
 		final String whereCompare = "LIKE";
 		final String qproductTypeMask = Utility.quote(productTypeMask);
@@ -239,6 +240,13 @@ final public class Reservation
 		final int prePostCount,
 		int timeSleep
 	) throws Exception {
+//		System.out.println("reserveProductLikeProductType("
+//				+ mygroup+","
+//				+ productTypeMask+","
+//				+ otherTypes+","
+//				+ Double.toString(granuleDuration)+","
+//				+ Integer.toString(prePostCount)+")"
+//		);
 		final String qgroup = Utility.quote(mygroup);
 		final String whereCompare = "LIKE";
 		final String qproductTypeMask = Utility.quote(productTypeMask);
@@ -421,68 +429,68 @@ final public class Reservation
      * if the database query times out.
      */
 
-    private ResultSet getOtherProductSet(Statement s, String thePass, String qproductType, String[] otherType, String whereCompare)
+	private ResultSet getOtherProductSet(Statement s, String thePass, String qproductType, String[] otherType, String whereCompare)
 	throws Exception
-    {
-	/* The inner query is of the form:
-	   SELECT p.id, p0.id, ... ,pN.id
-	   FROM Products AS p, Products AS p0, ... Products as pN
-	   WHERE p.pass = "thePass" AND p.productType = theProd
-	   AND p0.pass = "thePass" AND p0.productType = "productType" ...
-	   AND pN.pass = "thePass" AND pN.productType = "productType"
-
-	   which should emit zero or several rows of products to check
-	*/
-	int i;
-	String qthePass = Utility.quote(thePass);
-	String rsql = "SELECT p.id ";
-	for(i=0; i < otherType.length; i++)
-	    rsql += ", p" + i + ".id ";
-	rsql += "FROM Products as p ";
-	for(i=0; i < otherType.length; i++)
-	    rsql += ", Products as p" + i + " ";
-	rsql += "WHERE p.pass = " + qthePass
-	    + " AND p.productType " + whereCompare + " " + qproductType;
-	for(i=0; i < otherType.length; i++)
-	    rsql += " AND p" + i + ".pass = " + qthePass
-		+ " AND p" + i + ".productType " + whereCompare + " " + otherType[i];
-
-	/* This query has been known to block for a LONG time, so
-	   we run it in a subthread with a timer on, using the usual
-	   verbose Java Way (tm) (See DSM.fetchProduct()) */
-	class TimedQuery extends Thread
 	{
-	    String qs;
-	    Statement s;
-	    TimedQuery(String qs, Statement s) {
-		this.qs = qs; this.s = s;
-	    }
-	    public Exception exception = null;
-	    public ResultSet rs = null;
-	    public void run() {
-		try {
-		    rs = Utility.executeQuery(s, qs);
-		}
-		catch (Exception e) {
-		    exception = e;
-		}
-	    }
-	};
-	TimedQuery tq = new TimedQuery(rsql, s);
-	tq.start();
-	/* 300 seconds ought to be long enough */
-	tq.join(300 * 1000);
-	if(tq.isAlive()) {
-	    tq.interrupt();
-	    /* Log the error and return NULL */
-	    System.err.println("Reservation query timed out:" + rsql);
-	    return null;
-	}
-	if(tq.exception != null)
-	    throw tq.exception;
+	/* The inner query is of the form:
+		SELECT p.id, p0.id, ... ,pN.id
+		FROM Products AS p, Products AS p0, ... Products as pN
+		WHERE p.pass = "thePass" AND p.productType = theProd
+		AND p0.pass = "thePass" AND p0.productType = "productType" ...
+		AND pN.pass = "thePass" AND pN.productType = "productType"
 
-	return tq.rs;
-    }
+		which should emit zero or several rows of products to check
+	*/
+		int i;
+		String qthePass = Utility.quote(thePass);
+		String rsql = "SELECT p.id ";
+		for(i=0; i < otherType.length; i++)
+			rsql += ", p" + i + ".id ";
+		rsql += "FROM Products as p ";
+		for(i=0; i < otherType.length; i++)
+			rsql += ", Products as p" + i + " ";
+		rsql += "WHERE p.pass = " + qthePass
+			+ " AND p.productType " + whereCompare + " " + qproductType;
+		for(i=0; i < otherType.length; i++)
+			rsql += " AND p" + i + ".pass = " + qthePass
+				+ " AND p" + i + ".productType " + whereCompare + " " + otherType[i];
+
+		/* This query has been known to block for a LONG time, so
+			we run it in a subthread with a timer on, using the usual
+			verbose Java Way (tm) (See DSM.fetchProduct()) */
+		class TimedQuery extends Thread
+		{
+			String qs;
+			Statement s;
+			TimedQuery(String qs, Statement s) {
+				this.qs = qs; this.s = s;
+			}
+			public Exception exception = null;
+			public ResultSet rs = null;
+			public void run() {
+				try {
+					rs = Utility.executeQuery(s, qs);
+				}
+				catch (Exception e) {
+					exception = e;
+				}
+			}
+		};
+		TimedQuery tq = new TimedQuery(rsql, s);
+		tq.start();
+		/* 300 seconds ought to be long enough */
+		tq.join(300 * 1000);
+		if(tq.isAlive()) {
+			tq.interrupt();
+			/* Log the error and return NULL */
+			System.err.println("Reservation query timed out:" + rsql);
+			return null;
+		}
+		if(tq.exception != null)
+			throw tq.exception;
+
+		return tq.rs;
+	}
 
     /**
      * Interface used by polling method below.  Lambdas would make this

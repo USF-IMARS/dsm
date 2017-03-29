@@ -768,15 +768,13 @@ public final class Product implements java.io.Serializable, Comparable<Product>
      * requirement that products must have at least one resource.
      * @return true if all resources are local and false otherwise
      */
-    public boolean resourcesAreLocal()
-	throws Exception
-    {
+    public boolean resourcesAreLocal() throws Exception {
         boolean isLocal = true;
-	if (resources.isEmpty()) {
-	    // It is an error to call this on a Product with no resources
-	    throw new Exception("resourcesAreLocal: product " + productId
-				+ " has no resources!");
-	}
+        if (resources.isEmpty()) {
+            // It is an error to call this on a Product with no resources
+            throw new Exception("resourcesAreLocal: product " + productId
+                           + " has no resources!");
+        }
         Collection<Resource> list = resources.values();
         for (Resource r : list)
         {

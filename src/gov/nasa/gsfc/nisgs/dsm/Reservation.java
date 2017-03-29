@@ -637,8 +637,11 @@ final public class Reservation
 										System.out.print(" returned");
 										return xproduct;
 									}
+								} else {
+									throw new AssertionError("resources are not local");
 								}
-							} catch (SQLException se) {
+							} catch (SQLException | AssertionError se) {
+								System.out.println("\n ERR: " + se.toString());
 								releaseProduct(queryGroup, passID, 2);
 							}
 						}

@@ -626,20 +626,22 @@ final public class Reservation
 								r.next();
 								Product result = ProductFactory.makeProduct(connection, mysite, r);
 								System.out.print(" made");
+
+								// copy resources to local if needed
 								if (!result.resourcesAreLocal()) {
-									Product xproduct = copyProduct(passID);
+									result = copyProduct(passID);
 									System.out.print(" copied");
-									if (xproduct == null) {
-										//probably files are gone.
-										releaseProduct(queryGroup, passID, 2);
-										continue;
-									} else {
-										System.out.print(" returned");
-										return xproduct;
-									}
-								} else {
-									throw new AssertionError("resources are not local");
 								}
+
+								if (result == null) {
+									//probably files are gone.
+									throw new AssertionError("null product encountered");
+								} else {
+									Utility.commitConnection(connection);
+									System.out.print(" returned");
+									return result;
+								}
+
 							} catch (SQLException | AssertionError se) {
 								System.out.println("\n ERR: " + se.toString());
 								releaseProduct(queryGroup, passID, 2);

@@ -779,6 +779,7 @@ public final class Product implements java.io.Serializable, Comparable<Product>
         for (Resource r : list)
         {
             isLocal = r.getFile() != null;
+//            System.out.print(" " + r.getName() + Boolean.toString(isLocal));
             if (!isLocal) break;
         }
         return isLocal;

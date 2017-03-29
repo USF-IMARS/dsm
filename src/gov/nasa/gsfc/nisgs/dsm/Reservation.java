@@ -596,7 +596,7 @@ final public class Reservation
 	private boolean productExists(String passID, String productType, Statement stmt) throws SQLException{
 		String sqlQuery="SELECT id FROM Products WHERE Products.pass="+passID
 				+" AND Products.productType LIKE "+productType;
-		System.out.println(sqlQuery);
+//		System.out.println(sqlQuery);
 		ResultSet queryResult = Utility.executeQuery(stmt, sqlQuery);
 		if (queryResult.next()) {  // if at least 1 row in result
 			return true;
@@ -617,9 +617,9 @@ final public class Reservation
 			String passID, ArrayList<String> otherTypes, Statement stmt
 	) throws SQLException{
 		for(String productType : otherTypes){
-			System.out.print(" " + productType);
+//			System.out.print(" " + productType);
 			if(!productExists(passID, productType, stmt)){
-				System.out.print(" not found!");
+//				System.out.print(" not found!");
 				return false;
 			}
 		}  // else:
@@ -657,7 +657,7 @@ final public class Reservation
 			String sqlQuery = "SELECT DISTINCT id, pass FROM Products WHERE Products.productType "+whereCompare+" "
 					+ queryProductType + " AND Products.id NOT IN ( " +
 					" SELECT product from Markers WHERE Markers.gopherColony = " + queryGroup + ")";
-			System.out.println(sqlQuery);
+//			System.out.println(sqlQuery);
 			ResultSet queryResult = Utility.executeQuery(statement, sqlQuery);
 			// copy over result now so the query doesn't close before we're done.
 			ArrayList<String> productIDs = new ArrayList<>();
@@ -670,13 +670,13 @@ final public class Reservation
 			for (int i=0; i < productIDs.size(); i++){
 				String productID = productIDs.get(i);
 				String passID = passIDs.get(i);
-				System.out.print('\n'+productID);
+//				System.out.print('\n'+productID);
 				// check for resources & other types
 				// NOTE: should we check for otherTypes' resources too?
 				if (hasResources(productID, statement) && hasOtherTypes(passID, otherTypesList, statement)) {
-					System.out.print(" hasRes");
+//					System.out.print(" hasRes");
 					if (markProduct(productID, queryGroup, statement)) {
-						System.out.print(" marked");
+//						System.out.print(" marked");
 						// Create the Product objects and drag
 						// their resources to the local machine
 						try {
@@ -686,12 +686,12 @@ final public class Reservation
 							);
 							r.next();
 							Product result = ProductFactory.makeProduct(connection, mysite, r);
-							System.out.print(" made");
+//							System.out.print(" made");
 
 							// copy resources to local if needed
 							if (!result.resourcesAreLocal()) {
 								result = copyProduct(productID);
-								System.out.print(" copied");
+//								System.out.print(" copied");
 							}
 
 							if (result == null) {
@@ -699,7 +699,7 @@ final public class Reservation
 								throw new AssertionError("null product encountered");
 							} else {
 								Utility.commitConnection(connection);
-								System.out.print(" returned");
+//								System.out.print(" returned");
 								return result;
 							}
 

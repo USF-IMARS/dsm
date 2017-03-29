@@ -585,10 +585,64 @@ final public class Reservation
 		return true;
 	}
 
+	/** checks if product exists in products table
+	 *
+	 * @param passID pass to check for product
+	 * @param productType productType to check for in pass. expected to contain 'single-quotes'
+	 * @param stmt
+	 * @return true if given product type exists for given pass
+	 * @throws SQLException
+	 */
+	private boolean productExists(String passID, String productType, Statement stmt) throws SQLException{
+		String sqlQuery="SELECT id FROM Products WHERE Products.pass="+passID
+				+" AND Products.productType LIKE "+productType;
+		System.out.println(sqlQuery);
+		ResultSet queryResult = Utility.executeQuery(stmt, sqlQuery);
+		if (queryResult.next()) {  // if at least 1 row in result
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	/** check for list of other types
+	 *
+	 * @param passID id of pass to check
+	 * @param otherTypes list of other type strings to check for. strings expected to contain 'single-quotes'
+	 * @param stmt
+	 * @return true if given pass has required otherTypes, else false
+	 * @throws SQLException
+	 */
+	private boolean hasOtherTypes(
+			String passID, ArrayList<String> otherTypes, Statement stmt
+	) throws SQLException{
+		for(String productType : otherTypes){
+			System.out.print(" " + productType);
+			if(!productExists(passID, productType, stmt)){
+				System.out.print(" not found!");
+				return false;
+			}
+		}  // else:
+		return true;
+	}
+
 	/** Reserves the first product from the Products table that matches the given queryProductType and has not been
 	 * marked as processed by the given group.
+	 *
+	 * If given otherTypes are not present, the Product will not be reserved.
+	 *
+	 * whereCompare unused, but retained for backwards-compatibility.
+	 * NOTE: That^ makes me nervous; especially since some methods pass whereCompare="=".
+	 *
+	 * @param queryGroup		group of station attempting to reserve
+	 * @param queryProductType	productType station wants to reserve. expected to contain 'single-quotes'
+	 * @param otherTypes		other product types needed to continue w/ reservation.
+	 *                             expected to contain 'single-quotes'
+	 * @param whereCompare		comparison operator to use on queryProductType
+	 * @return
+	 * @throws Exception
 	 */
-	private Product reserve(
+	private Product reserve (
 			String queryGroup,
 			String queryProductType,
 			String[] otherTypes,
@@ -596,56 +650,62 @@ final public class Reservation
 	) throws Exception{
 		Statement statement = connection.createStatement();
 		// select products which have not been marked processed by my group matching queryProductType or otherTypes
-		ArrayList<String> typesToReserve = new ArrayList<>();
-		typesToReserve.add(queryProductType);
-		typesToReserve.addAll(Arrays.asList(otherTypes));
+		ArrayList<String> otherTypesList = new ArrayList<>(Arrays.asList(otherTypes));
 
 		try {
-			for (String reserveType : typesToReserve) {
-				// NOTE: is pass needed in the query below? Only if ids are not unique across multiple passes.
-				String sqlQuery = "SELECT DISTINCT id, pass FROM Products WHERE Products.productType LIKE " + reserveType + " AND Products.id NOT IN ( " +
-						" SELECT product from Markers WHERE Markers.gopherColony = " + queryGroup + ")";
-				System.out.println(sqlQuery);
-				ResultSet queryResult = Utility.executeQuery(statement, sqlQuery);
-				// copy over result now so the query doesn't close before we're done.
-				ArrayList<String> passIDs = new ArrayList<>();
-				while (queryResult.next()) {  // TODO: should this be do-while or does the iterator need to be primed?
-					passIDs.add(queryResult.getString(1));  // index starts @ 1
-				}
-				// handle the results:
-				for (String passID : passIDs){
-					System.out.print('\n'+passID);
-					if (hasResources(passID, statement)) {
-						System.out.print(" hasRes");
-						if (markProduct(passID, queryGroup, statement)) {
-							System.out.print(" marked");
-							// Create the Product objects and drag
-							// their resources to the local machine
-							try {
-								ResultSet r = Utility.executeQuery(statement, "SELECT Products.* from Products where Products.id=" + passID);
-								r.next();
-								Product result = ProductFactory.makeProduct(connection, mysite, r);
-								System.out.print(" made");
+			// NOTE: is pass needed in the query below? Only if ids are not unique across multiple passes.
+			String sqlQuery = "SELECT DISTINCT id, pass FROM Products WHERE Products.productType "+whereCompare+" "
+					+ queryProductType + " AND Products.id NOT IN ( " +
+					" SELECT product from Markers WHERE Markers.gopherColony = " + queryGroup + ")";
+			System.out.println(sqlQuery);
+			ResultSet queryResult = Utility.executeQuery(statement, sqlQuery);
+			// copy over result now so the query doesn't close before we're done.
+			ArrayList<String> productIDs = new ArrayList<>();
+			ArrayList<String> passIDs = new ArrayList<>();
+			while (queryResult.next()) {
+				productIDs.add(queryResult.getString(1));  // index starts @ 1
+				passIDs.add(queryResult.getString(2));
+			}
+			// handle the results:
+			for (int i=0; i < productIDs.size(); i++){
+				String productID = productIDs.get(i);
+				String passID = passIDs.get(i);
+				System.out.print('\n'+productID);
+				// check for resources & other types
+				// NOTE: should we check for otherTypes' resources too?
+				if (hasResources(productID, statement) && hasOtherTypes(passID, otherTypesList, statement)) {
+					System.out.print(" hasRes");
+					if (markProduct(productID, queryGroup, statement)) {
+						System.out.print(" marked");
+						// Create the Product objects and drag
+						// their resources to the local machine
+						try {
+							ResultSet r = Utility.executeQuery(
+									statement,
+									"SELECT Products.* from Products where Products.id=" + productID
+							);
+							r.next();
+							Product result = ProductFactory.makeProduct(connection, mysite, r);
+							System.out.print(" made");
 
-								// copy resources to local if needed
-								if (!result.resourcesAreLocal()) {
-									result = copyProduct(passID);
-									System.out.print(" copied");
-								}
-
-								if (result == null) {
-									//probably files are gone.
-									throw new AssertionError("null product encountered");
-								} else {
-									Utility.commitConnection(connection);
-									System.out.print(" returned");
-									return result;
-								}
-
-							} catch (SQLException | AssertionError se) {
-								System.out.println("\n ERR: " + se.toString());
-								releaseProduct(queryGroup, passID, 2);
+							// copy resources to local if needed
+							if (!result.resourcesAreLocal()) {
+								result = copyProduct(productID);
+								System.out.print(" copied");
 							}
+
+							if (result == null) {
+								//probably files are gone.
+								throw new AssertionError("null product encountered");
+							} else {
+								Utility.commitConnection(connection);
+								System.out.print(" returned");
+								return result;
+							}
+
+						} catch (SQLException | AssertionError se) {
+							System.out.println("\n ERR: " + se.toString());
+							releaseProduct(queryGroup, productID, 2);
 						}
 					}
 				}

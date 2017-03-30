@@ -102,6 +102,8 @@ Update: The importance of this issue may be mitigated now that I have a "publish
                   useful in the future
     4.0.0  2016-03-16 
             USF IMaRS production checkin. Uncertain what changes made since 3.23
+    4.0.1  2016-03-17
+            Fixed memory leak(s) w/ PdsMover
     4.1.0  2016-03-30
             Fixed handling of ReserveProductLikeProductType to allow wildcards to select
             multiple products within the same pass. Required a full rewrite of 
